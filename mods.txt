@@ -1,0 +1,74 @@
+# The mods used in the server, aims for performance and stability.
+# ref: https://gist.github.com/Obydux/55b967f5dcc00633fe895e5a473363d5
+
+# Fabric foundimental mods
+
+# https://modrinth.com/mod/fabric-api/versions
+https://cdn.modrinth.com/data/P7dR8mSH/versions/s5UrEfIY/fabric-api-0.80.0%2B1.19.4.jar
+
+# https://modrinth.com/mod/fabric-language-kotlin/versions
+https://cdn.modrinth.com/data/Ha28R6CL/versions/qgTQJrUS/fabric-language-kotlin-1.9.4%2Bkotlin.1.8.21.jar
+
+# Optimization mods
+
+# https://modrinth.com/mod/lithium/versions
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/14hWYkog/lithium-fabric-mc1.19.4-0.11.1.jar
+
+# https://modrinth.com/mod/starlight/versions
+https://cdn.modrinth.com/data/H8CaAYZC/versions/1.1.1%2B1.19/starlight-1.1.1%2Bfabric.ae22326.jar
+
+# https://modrinth.com/mod/ferrite-core/versions
+https://cdn.modrinth.com/data/uXXizFIs/versions/RbR7EG8T/ferritecore-5.2.0-fabric.jar
+
+# https://modrinth.com/mod/krypton/versions
+https://cdn.modrinth.com/data/fQEb0iXm/versions/Tncui9tU/krypton-0.2.2.jar
+
+# https://modrinth.com/mod/memoryleakfix/versions
+https://cdn.modrinth.com/data/NRjRiSSD/versions/PtXTwQt6/memoryleakfix-fabric-1.17%2B-1.0.0.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save
+https://mediafilez.forgecdn.net/files/4519/675/smoothchunk-fabric-1.19.4-3.0.jar
+
+# https://github.com/gnembon/fabric-carpet/releases
+https://github.com/gnembon/fabric-carpet/releases/download/1.4.101/fabric-carpet-1.19.4-1.4.101+v230319.jar
+
+# https://github.com/gnembon/carpet-extra/releases
+https://github.com/gnembon/carpet-extra/releases/download/1.4.100/carpet-extra-1.19.4-1.4.100.jar
+
+# https://modrinth.com/mod/c2me-fabric/versions
+https://cdn.modrinth.com/data/VSNURh3q/versions/2LxKBERD/c2me-fabric-mc1.19.4-0.2.0%2Balpha.10.51.jar
+
+# https://modrinth.com/mod/vmp-fabric/versions
+https://cdn.modrinth.com/data/wnEe9KBa/versions/gdYFga6D/vmp-fabric-mc1.19.4-0.2.0%2Bbeta.7.72-all.jar
+
+# https://modrinth.com/plugin/chunky/versions
+https://cdn.modrinth.com/data/fALzjamp/versions/MpJo7JH4/Chunky-1.3.74.jar
+
+# https://modrinth.com/mod/smoothboot-fabric/versions
+https://cdn.modrinth.com/data/FWumhS4T/versions/I9TkHxLI/smoothboot-fabric-1.19.4-1.7.0.jar
+
+# https://modrinth.com/mod/spark/versions
+https://cdn.modrinth.com/data/l6YH9Als/versions/XhFbpH8f/spark-1.10.37-fabric.jar
+
+# https://modrinth.com/mod/gotta-go-fast-fabric/versions
+https://cdn.modrinth.com/data/Ioquzjs2/versions/dM5eq8ZE/gottagofast-1.0.2.jar
+
+# https://modrinth.com/mod/timeoutout/versions
+https://cdn.modrinth.com/data/7cFX55fD/versions/1.0.3/timeoutout-1.0.3%2B1.19.1.jar
+
+# https://modrinth.com/mod/view-distance-fix/versions
+https://cdn.modrinth.com/data/nxrXbh5K/versions/VRVEB6Hc/viewdistancefix-1.19.4-1.0.0.jar
+
+# https://modrinth.com/mod/libre-exp-fix/versions
+https://cdn.modrinth.com/data/qOQALrK4/versions/aP90jTOh/LibreExpFix-0.1-ALPHA.jar
+
+# https://modrinth.com/mod/ledger/versions
+https://cdn.modrinth.com/data/LVN9ygNV/versions/DrNDLlGK/ledger-1.2.7.jar
+
+# https://modrinth.com/mod/badpackets/versions
+https://cdn.modrinth.com/data/ftdbN0KK/versions/ivJ0srK8/badpackets-fabric-0.4.1.jar
+
+# https://modrinth.com/plugin/raknetify/versions
+https://cdn.modrinth.com/data/5IovSY3u/versions/BVs3spak/raknetify-fabric-0.1.0%2Balpha.5.72-all.jar
+
+

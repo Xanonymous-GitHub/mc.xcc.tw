@@ -1,0 +1,134 @@
+version: "3"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    volumes:
+      - "mc:/data"
+      - "./mods.txt:/extras/mods.txt"
+    ports:
+      - 25565:25565
+    environment:
+      # VERSION: ""
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      MODE: "survival"
+      DIFFICULTY: "hard"
+      FORCE_GAMEMODE: "true"
+      SPAWN_PROTECTION: 0
+      ENABLE_COMMAND_BLOCK: "true"
+      OVERRIDE_SERVER_PROPERTIES: "true"
+      ICON: "https://i.imgur.com/kDOJT2P.png"
+      OVERRIDE_ICON: "TRUE"
+      MOTD: "\u00A7f\u00A7fWelcome to [\u00A74\u00A7l\u00A7k?\u00A7r] \u00A7eCocoa SMP\u00A7r\n\u00A7f\u00A7fJust play, and have fun!"
+      SERVER_NAME: "CoCoa SMP"
+      OPS: "XLTU"
+      MEMORY: "16G"
+      NETWORK_COMPRESSION_THRESHOLD: 512
+      SIMULATION_DISTANCE: 3
+      MAX_TICK_TIME: "-1"
+      VIEW_DISTANCE: 6
+      SYNC_CHUNK_WRITES: "false"
+      JVM_OPTS: >
+        -Xms4G -Xmx16G
+        -XX:+UnlockExperimentalVMOptions 
+        -XX:+UnlockDiagnosticVMOptions 
+        -Dterminal.jline=false 
+        -Dterminal.ansi=true 
+        -Djline.terminal=jline.UnsupportedTerminal 
+        -Dlog4j2.formatMsgNoLookups=true 
+        -XX:+AlwaysActAsServerClassMachine 
+        -XX:+AlwaysPreTouch 
+        -XX:+DisableExplicitGC 
+        -XX:+UseNUMA 
+        -XX:AllocatePrefetchStyle=3 
+        -XX:NmethodSweepActivity=1 
+        -XX:ReservedCodeCacheSize=400M 
+        -XX:NonNMethodCodeHeapSize=12M 
+        -XX:ProfiledCodeHeapSize=194M 
+        -XX:NonProfiledCodeHeapSize=194M 
+        -XX:+PerfDisableSharedMem 
+        -XX:+UseFastUnorderedTimeStamps 
+        -XX:+UseCriticalJavaThreadPriority 
+        -XX:+EagerJVMCI 
+        -Dgraal.TuneInlinerExploration=1 
+        -Dgraal.CompilerConfiguration=enterprise 
+        -XX:+UseG1GC 
+        -XX:+ParallelRefProcEnabled 
+        -XX:MaxGCPauseMillis=200 
+        -XX:+UnlockExperimentalVMOptions 
+        -XX:+UnlockDiagnosticVMOptions 
+        -XX:+DisableExplicitGC 
+        -XX:+AlwaysPreTouch 
+        -XX:G1NewSizePercent=30 
+        -XX:G1MaxNewSizePercent=40 
+        -XX:G1HeapRegionSize=8M 
+        -XX:G1ReservePercent=20 
+        -XX:G1HeapWastePercent=5 
+        -XX:G1MixedGCCountTarget=4 
+        -XX:InitiatingHeapOccupancyPercent=15 
+        -XX:G1MixedGCLiveThresholdPercent=90 
+        -XX:G1RSetUpdatingPauseTimePercent=5 
+        -XX:SurvivorRatio=32 
+        -XX:+PerfDisableSharedMem 
+        -XX:MaxTenuringThreshold=1 
+        -XX:-UseBiasedLocking 
+        -XX:+UseStringDeduplication 
+        -XX:+UseFastUnorderedTimeStamps 
+        -XX:+UseAES 
+        -XX:+UseAESIntrinsics 
+        -XX:+UseFMA 
+        -XX:+UseLoopPredicate 
+        -XX:+RangeCheckElimination 
+        -XX:+EliminateLocks 
+        -XX:+DoEscapeAnalysis 
+        -XX:+UseCodeCacheFlushing 
+        -XX:+SegmentedCodeCache 
+        -XX:+UseFastJNIAccessors 
+        -XX:+OptimizeStringConcat 
+        -XX:+UseCompressedOops 
+        -XX:+UseThreadPriorities 
+        -XX:+OmitStackTraceInFastThrow 
+        -XX:+TrustFinalNonStaticFields 
+        -XX:ThreadPriorityPolicy=1 
+        -XX:+UseInlineCaches 
+        -XX:+RewriteBytecodes 
+        -XX:+RewriteFrequentPairs 
+        -XX:+UseNUMA 
+        -XX:-DontCompileHugeMethods 
+        -XX:+UseFPUForSpilling 
+        -XX:+UseVectorCmov 
+        -XX:+UseXMMForArrayCopy 
+        -XX:+UseTransparentHugePages 
+        -XX:+UseLargePages 
+        -Dfile.encoding=UTF-8 
+        -Xlog:async 
+        -Djava.security.egd=file:/dev/urandom --add-modules jdk.incubator.vector
+
+      REMOVE_OLD_MODS: "true"
+      OVERRIDE_OPS: "true"
+      CONSOLE: "FALSE"
+      GUI: "FALSE"
+      MODS_FILE: "/extras/mods.txt"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+
+  backups:
+    image: itzg/mc-backup
+    environment:
+      BACKUP_INTERVAL: "24h"
+      # instead of network_mode below, could declare RCON_HOST
+      # RCON_HOST: mc
+    volumes:
+    # mount the same volume used by server, but read-only
+    - mc:/data:ro
+    # use a host attached directory so that it in turn can be backed up
+    # to external/cloud storage
+    - ./mc-backups:/backups
+    # share network namespace with server to simplify rcon access
+    network_mode: "service:mc"
+    restart: always
+
+volumes:
+  mc: {}
