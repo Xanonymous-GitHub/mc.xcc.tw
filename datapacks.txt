@@ -1,0 +1,31 @@
+# The datapack list.
+# FIXME: This list seems not able to be read by the server, so all things below will not be enabled.
+
+# Features
+
+# https://modrinth.com/datapack/tectonic/versions
+# https://cdn.modrinth.com/data/lWDHr9jE/versions/rnuM9oqV/tectonic-mod-mc1.19.3-v1.1.10.jar
+
+# https://modrinth.com/datapack/mine-treasure/versions
+https://cdn.modrinth.com/data/5y2R1ofr/versions/EkkZko39/mine-treasure-1.2.7.zip
+
+# https://modrinth.com/datapack/vanilla-refresh/versions
+# https://cdn.modrinth.com/data/gWO6Zqey/versions/OgAOMB7P/vanillarefresh-v1.4.13k.zip
+
+# https://modrinth.com/datapack/spawn-animations/versions
+# https://cdn.modrinth.com/data/zrzYrlm0/versions/IKZaP3Rx/spawnanimations-v1.8.2-mc1.19-datapack.zip
+
+# https://www.planetminecraft.com/data-pack/1-14-x-improved-desert-village-datapack/
+# https://static.planetminecraft.com/files/resource_media/datapack/desert-village-1-19.zip
+
+# https://www.planetminecraft.com/data-pack/waystones/
+# https://static.planetminecraft.com/files/resource_media/datapack/pk-waystones-v-2-0-5-mc-1-19-4.zip
+
+# https://www.stardustlabs.net/datapacks
+# https://www.stardustlabs.net/s/Terralith_1194_v237.zip
+# https://www.stardustlabs.net/s/Structory_1194_v131.zip
+# https://www.stardustlabs.net/s/Incendium_1194_v520.zip
+# https://www.stardustlabs.net/s/Nullscape_1194_v121.zip
+
+# https://www.planetminecraft.com/data-pack/day-counter-updated-with-coords-and-24h-time/
+# https://static.planetminecraft.com/files/resource_media/datapack/days-counter-updated.zip
