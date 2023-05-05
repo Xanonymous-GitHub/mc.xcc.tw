@@ -1,7 +1,4 @@
-# The mods used in the server, aims for performance and stability.
-# ref: https://gist.github.com/Obydux/55b967f5dcc00633fe895e5a473363d5
-
-# Fabric foundimental mods
+# Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions
 https://cdn.modrinth.com/data/P7dR8mSH/versions/s5UrEfIY/fabric-api-0.80.0%2B1.19.4.jar
@@ -10,6 +7,8 @@ https://cdn.modrinth.com/data/P7dR8mSH/versions/s5UrEfIY/fabric-api-0.80.0%2B1.1
 https://cdn.modrinth.com/data/Ha28R6CL/versions/qgTQJrUS/fabric-language-kotlin-1.9.4%2Bkotlin.1.8.21.jar
 
 # Optimization mods
+# The mods used in the server, aims for performance and stability.
+# ref: https://gist.github.com/Obydux/55b967f5dcc00633fe895e5a473363d5
 
 # https://modrinth.com/mod/lithium/versions
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/14hWYkog/lithium-fabric-mc1.19.4-0.11.1.jar
@@ -71,4 +70,22 @@ https://cdn.modrinth.com/data/ftdbN0KK/versions/ivJ0srK8/badpackets-fabric-0.4.1
 # https://modrinth.com/plugin/raknetify/versions
 https://cdn.modrinth.com/data/5IovSY3u/versions/BVs3spak/raknetify-fabric-0.1.0%2Balpha.5.72-all.jar
 
+# Features mods
 
+# https://www.curseforge.com/minecraft/modpacks/better-mc-fabric
+# https://mediafilez.forgecdn.net/files/4509/639/Better+MC+%5bFABRIC%5d+1.19.2+v17.5+HF.zip
+
+# https://modrinth.com/datapack/vanilla-refresh/versions
+https://cdn.modrinth.com/data/gWO6Zqey/versions/fsPPcWIh/vanilla-refresh-1.4.13k.jar
+
+# https://modrinth.com/mod/xaeros-minimap-fair/versions
+https://cdn.modrinth.com/data/JkSi2Fzx/versions/4I7b0kZz/Xaeros_Minimap_FP23.4.0_Fabric_1.19.4.jar
+
+# https://modrinth.com/mod/xaeros-world-map/versions
+https://cdn.modrinth.com/data/NcUtCpym/versions/UsAkUS2z/XaerosWorldMap_1.30.1_Fabric_1.19.4.jar
+
+# https://modrinth.com/datapack/mine-treasure/versions
+https://cdn.modrinth.com/data/5y2R1ofr/versions/Zhx8qUmG/mine-treasure-1.2.7.jar
+
+# https://modrinth.com/datapack/spawn-animations/versions
+https://cdn.modrinth.com/data/zrzYrlm0/versions/2jV4945M/spawn-animations-1.8.2.jar
