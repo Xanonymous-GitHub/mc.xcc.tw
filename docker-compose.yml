@@ -6,6 +6,8 @@ services:
     volumes:
       - "mc:/data"
       - "./mods.txt:/extras/mods.txt"
+      - "./datapacks.txt:/extras/datapacks.txt"
+      - "./datapacks/:/datapacks/"
     ports:
       - 25565:25565
     environment:
@@ -110,6 +112,8 @@ services:
       CONSOLE: "FALSE"
       GUI: "FALSE"
       MODS_FILE: "/extras/mods.txt"
+      DATAPACKS_FILE: "/extras/datapacks.txt"
+      DATAPACKS: "/datapacks"
     tty: true
     stdin_open: true
     restart: unless-stopped
