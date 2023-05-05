@@ -76,13 +76,13 @@ https://cdn.modrinth.com/data/5IovSY3u/versions/BVs3spak/raknetify-fabric-0.1.0%
 # https://mediafilez.forgecdn.net/files/4509/639/Better+MC+%5bFABRIC%5d+1.19.2+v17.5+HF.zip
 
 # https://modrinth.com/datapack/vanilla-refresh/versions
-https://cdn.modrinth.com/data/gWO6Zqey/versions/fsPPcWIh/vanilla-refresh-1.4.13k.jar
+# https://cdn.modrinth.com/data/gWO6Zqey/versions/fsPPcWIh/vanilla-refresh-1.4.13k.jar
 
 # https://modrinth.com/mod/xaeros-minimap-fair/versions
-https://cdn.modrinth.com/data/JkSi2Fzx/versions/4I7b0kZz/Xaeros_Minimap_FP23.4.0_Fabric_1.19.4.jar
+# https://cdn.modrinth.com/data/JkSi2Fzx/versions/4I7b0kZz/Xaeros_Minimap_FP23.4.0_Fabric_1.19.4.jar
 
 # https://modrinth.com/mod/xaeros-world-map/versions
-https://cdn.modrinth.com/data/NcUtCpym/versions/UsAkUS2z/XaerosWorldMap_1.30.1_Fabric_1.19.4.jar
+# https://cdn.modrinth.com/data/NcUtCpym/versions/UsAkUS2z/XaerosWorldMap_1.30.1_Fabric_1.19.4.jar
 
 # https://modrinth.com/datapack/mine-treasure/versions
 https://cdn.modrinth.com/data/5y2R1ofr/versions/Zhx8qUmG/mine-treasure-1.2.7.jar
