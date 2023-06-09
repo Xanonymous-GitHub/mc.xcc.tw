@@ -6,8 +6,11 @@ function copy_backup() {
     local USERNAME=""
     local REMOTE_BACKUP_FOLDER=""
     local FILE_PATH=""
+    local DEST_DIR=$(dirname $0)
 
-    rsync -avz -e "ssh -p $PORT" "$USERNAME@$REMOTE_SERVER:$REMOTE_BACKUP_FOLDER/$FILE_PATH" "$(dirname $0)"
+    FILE_PATH=$(ssh -p $PORT $USERNAME@$REMOTE_SERVER "ls -t $REMOTE_BACKUP_FOLDER | head -n1")
+
+    rsync -avz -e "ssh -p $PORT" "$USERNAME@$REMOTE_SERVER:$REMOTE_BACKUP_FOLDER/$FILE_PATH" "$DEST_DIR"
 }
 
 set -e
