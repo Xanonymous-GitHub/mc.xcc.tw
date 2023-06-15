@@ -7,7 +7,7 @@
 # https://cdn.modrinth.com/data/lWDHr9jE/versions/rnuM9oqV/tectonic-mod-mc1.19.3-v1.1.10.jar
 
 # https://modrinth.com/datapack/mine-treasure/versions
-https://cdn.modrinth.com/data/5y2R1ofr/versions/EkkZko39/mine-treasure-1.2.7.zip
+# https://cdn.modrinth.com/data/5y2R1ofr/versions/EkkZko39/mine-treasure-1.2.7.zip
 
 # https://modrinth.com/datapack/vanilla-refresh/versions
 # https://cdn.modrinth.com/data/gWO6Zqey/versions/OgAOMB7P/vanillarefresh-v1.4.13k.zip
