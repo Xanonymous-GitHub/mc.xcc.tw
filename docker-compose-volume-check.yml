@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  mc:
+    image: ubuntu:devel
+    volumes:
+      - "mc:/data"
+
+volumes:
+  mc: {}
