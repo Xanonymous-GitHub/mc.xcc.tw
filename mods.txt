@@ -44,7 +44,7 @@ https://cdn.modrinth.com/data/wnEe9KBa/versions/NYa4FfQN/vmp-fabric-mc1.20.1-0.2
 https://cdn.modrinth.com/data/fALzjamp/versions/t8SbUchF/Chunky-1.3.92.jar
 
 # https://modrinth.com/mod/smoothboot-fabric/versions 1.19.4
-# https://cdn.modrinth.com/data/FWumhS4T/versions/I9TkHxLI/smoothboot-fabric-1.19.4-1.7.0.jar
+# {url}
 
 # https://modrinth.com/mod/spark/versions 1.20.1
 https://cdn.modrinth.com/data/l6YH9Als/versions/BeIg1bik/spark-1.10.42-fabric.jar
