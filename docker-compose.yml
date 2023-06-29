@@ -74,7 +74,6 @@ services:
         -XX:SurvivorRatio=32 
         -XX:+PerfDisableSharedMem 
         -XX:MaxTenuringThreshold=1 
-        -XX:-UseBiasedLocking 
         -XX:+UseStringDeduplication 
         -XX:+UseFastUnorderedTimeStamps 
         -XX:+UseAES 

@@ -70,6 +70,11 @@ https://cdn.modrinth.com/data/ftdbN0KK/versions/ivJ0srK8/badpackets-fabric-0.4.1
 # https://modrinth.com/plugin/raknetify/versions 1.20.1
 https://cdn.modrinth.com/data/5IovSY3u/versions/yVIGJZms/raknetify-fabric-0.1.0%2Balpha.5.87-all.jar
 
+# Required mods
+
+# https://modrinth.com/mod/owo-lib/versions 1.20.1
+https://cdn.modrinth.com/data/ccKDOlHs/versions/DgIYuFEF/owo-lib-0.11.0%2B1.20.jar
+
 # Features mods
 
 # https://www.curseforge.com/minecraft/modpacks/better-mc-fabric
