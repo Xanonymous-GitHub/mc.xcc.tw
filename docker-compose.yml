@@ -5,7 +5,7 @@ services:
     image: itzg/minecraft-server:java20-alpine
     volumes:
       - "mc:/data"
-      - "./mods.txt:/extras/mods.txt"
+      - "./mods.txt:/extras/mods.txt:ro"
       - "./datapacks.txt:/extras/datapacks.txt"
       - "./datapacks/:/datapacks/"
     ports:
