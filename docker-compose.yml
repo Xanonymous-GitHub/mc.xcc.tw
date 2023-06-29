@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mc:
-    image: itzg/minecraft-server:java20-alpine
+    image: itzg/minecraft-server
     volumes:
       - "mc:/data"
       - "./mods.txt:/extras/mods.txt:ro"
