@@ -6,6 +6,7 @@ services:
     command: tail -f /dev/null
     volumes:
       - "mc:/data"
+    pull_policy: "always"
 
 volumes:
   mc: {}

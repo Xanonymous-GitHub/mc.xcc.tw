@@ -10,6 +10,7 @@ services:
       - "./datapacks/:/datapacks/"
     ports:
       - 25565:25565
+    pull_policy: "always"
     environment:
       VERSION: "1.20.1"
       EULA: "TRUE"
