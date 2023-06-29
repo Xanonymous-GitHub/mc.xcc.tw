@@ -20,7 +20,7 @@ services:
       SPAWN_PROTECTION: 0
       ENABLE_COMMAND_BLOCK: "true"
       OVERRIDE_SERVER_PROPERTIES: "true"
-      ICON: "https://i.imgur.com/kDOJT2P.png"
+      ICON: "https://i.imgur.com/wnrEgP7.png"
       OVERRIDE_ICON: "TRUE"
       MOTD: "\u00A7f\u00A7fWelcome to [\u00A74\u00A7l\u00A7k?\u00A7r] \u00A7eCocoa SMP\u00A7r\n\u00A7f\u00A7fJust play, and have fun!"
       SERVER_NAME: "CoCoa SMP"
@@ -112,10 +112,11 @@ services:
       CONSOLE: "FALSE"
       GUI: "FALSE"
       MODS_FILE: "/extras/mods.txt"
-      DATAPACKS_FILE: "/extras/datapacks.txt"
+      # since not all datapackas can get a solid download link, we manually download them.
+      # DATAPACKS_FILE: "/extras/datapacks.txt"
       DATAPACKS: "/datapacks"
     tty: true
-    stdin_open: true
+    stdin_open: false
     restart: unless-stopped
 
   backups:
