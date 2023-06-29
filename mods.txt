@@ -75,8 +75,8 @@ https://cdn.modrinth.com/data/5IovSY3u/versions/yVIGJZms/raknetify-fabric-0.1.0%
 # https://www.curseforge.com/minecraft/modpacks/better-mc-fabric
 # https://mediafilez.forgecdn.net/files/4509/639/Better+MC+%5bFABRIC%5d+1.19.2+v17.5+HF.zip
 
-# https://modrinth.com/datapack/vanilla-refresh/versions
-# https://cdn.modrinth.com/data/gWO6Zqey/versions/fsPPcWIh/vanilla-refresh-1.4.13k.jar
+# https://modrinth.com/datapack/vanilla-refresh/versions 1.20.1
+https://cdn.modrinth.com/data/gWO6Zqey/versions/TvTKdtrw/vanilla-refresh-v1.4.16c.jar
 
 # https://modrinth.com/mod/xaeros-minimap-fair/versions
 # https://cdn.modrinth.com/data/JkSi2Fzx/versions/4I7b0kZz/Xaeros_Minimap_FP23.4.0_Fabric_1.19.4.jar
