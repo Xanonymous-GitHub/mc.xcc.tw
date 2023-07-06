@@ -4,7 +4,6 @@ profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
   #include <abstractions/base>
 
   # Network access
-  network,
   network tcp,
   network udp,
 
@@ -20,24 +19,44 @@ profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
   /etc/resolv.conf r,
 
   # Basic permissions
-  capability,
   deny capability mknod,
   deny capability sys_admin,
   deny capability sys_module,
   deny capability sys_rawio,
+  deny capability chown,
+  deny capability dac_override,
+  deny capability setuid,
+  deny capability setgid,
+  deny capability net_bind_service,
 
   # Deny mount operations
   deny mount,
 
-  # Deny ability to make their memory unwritable or undeletable
-  deny mprotect,
-
   # Deny access to the kernel syslog
   deny syslog,
 
-  # Deny writing to files in /sys and /proc
-  deny /sys/** w,
-  deny /proc/** w,
+  # Deny writing to files
+  deny /bin/** wl,
+  deny /boot/** wl,
+  deny /dev/** wl,
+  deny /etc/** wl,
+  deny /home/** wl,
+  deny /lib/** wl,
+  deny /lib64/** wl,
+  deny /media/** wl,
+  deny /mnt/** wl,
+  deny /opt/** wl,
+  deny /proc/** wl,
+  deny /root/** wl,
+  deny /sbin/** wl,
+  deny /srv/** wl,
+  deny /tmp/** wl,
+  deny /sys/** wl,
+  deny /usr/** wl,
+
+  deny /bin/dash mrwklx,
+  deny /bin/sh mrwklx,
+  deny /usr/bin/top mrwklx,
 
   # Deny IPC lockdown
   deny ipc,
@@ -47,7 +66,20 @@ profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
   deny unix,
 
   # Deny all other system calls
-  deny @{PROC}/* w,   # deny write for all files directly in /proc (not in a subdir)
+  deny @{PROC}/* w,
   deny @{PROC}/{[^1-9],[^1-9][^0-9],[^1-9s][^0-9y][^0-9s],[^1-9][^0-9][^0-9][^0-9]*}/** w,
+  deny @{PROC}/sys/kernel/{?,??,[^s][^h][^m]**} w,
   deny @{PROC}/sys/** w
+  deny @{PROC}/sysrq-trigger rwklx,
+  deny @{PROC}/mem rwklx,
+  deny @{PROC}/kmem rwklx,
+  deny @{PROC}/kcore rwklx,
+
+  deny /sys/[^f]*/** wklx,
+  deny /sys/f[^s]*/** wklx,
+  deny /sys/fs/[^c]*/** wklx,
+  deny /sys/fs/c[^g]*/** wklx,
+  deny /sys/fs/cg[^r]*/** wklx,
+  deny /sys/firmware/** rwklx,
+  deny /sys/kernel/security/** rwklx,
 }
