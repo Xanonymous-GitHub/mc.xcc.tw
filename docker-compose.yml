@@ -133,16 +133,20 @@ services:
     environment:
       BACKUP_INTERVAL: "4h"
       # instead of network_mode below, could declare RCON_HOST
-      # RCON_HOST: mc
+      RCON_HOST: mc
+      POST_BACKUP_SCRIPT_FILE: /post-backup.sh
     volumes:
     # mount the same volume used by server, but read-only
     - mc:/data:ro
     # use a host attached directory so that it in turn can be backed up
     # to external/cloud storage
     - ./mc-backups:/backups
+    - ./post-backup.sh:/post-backup.sh:ro
     # share network namespace with server to simplify rcon access
     network_mode: "service:mc"
     restart: always
+    depends_on:
+      - mc
 
 volumes:
   mc: {}

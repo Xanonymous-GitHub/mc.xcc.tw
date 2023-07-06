@@ -58,6 +58,47 @@ docker run --rm -v minecraft_mc:/data -v ~/volume-tmp-transfer:/backup alpine as
 rm -rf ~/volume-tmp-transfer
 ```
 
+#### Setup the git-lfs for backup
+We may consider using git-lfs to backup the server, but we need to setup the git-lfs first.
+
+Assume we have a `minecraft-backup-pool` lfs repository, and we want to backup the server to it.
+
+First, init the repository.
+```bash
+cd ~/minecraft-backup-pool
+git init
+```
+
+Then, go to GitHub and generate a Fine-grained personal access token.
+The token should have at least two permissions:
+- `Contents:read/write` of repository
+- `Metadata:read` of repository
+
+Then, add the remote repository.
+
+```bash
+git remote add origin https://{TOKEN}@github.com/{OWNER}/{REPO}.git
+```
+
+Then, setup the git-lfs.
+
+```bash
+git lfs install
+```
+
+done.
+
+After these steps, you can use git lfs to track the backup files.
+
+But if you want to directly track all files in the pool folder, you can use the following command.
+
+```bash
+# assume you are in the pool folder.
+git lfs track "*.tgz"
+```
+
+And please note that before you start to push lfs files to a remote repository, you have to enable the `Include Git LFS objects in archives` option in the repository's settings.
+
 ## How to remove unused mods, datapacks, and other things
 
 Usually this happened when we remove a mod "A" in `mods.txt`. The mod "A" will still in the `mods` folder, since there's no any integrations can help us apply mod-removal changes automatically. This will cause the server to crash once server's version has upgraded to a newer number but the mod "A" didn't.
