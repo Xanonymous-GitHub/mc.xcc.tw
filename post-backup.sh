@@ -27,6 +27,12 @@ cp "$latest_backup_file" $BACKUP_POOL_DIR
 # Push the latest backup file to GitHub using git-lfs.
 cd $BACKUP_POOL_DIR || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
+
+git pull origin main
+
+# Remove the previous backup file from the git repository.
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.tgz' --prune-empty --tag-name-filter cat -- --all
+
 git add "."
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
