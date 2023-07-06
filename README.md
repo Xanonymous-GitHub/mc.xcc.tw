@@ -43,6 +43,21 @@ You can use `copy-backup-example.sh` to copy the latest backup to your local com
 ./copy-backup.sh # alter the example script to your own.
 ```
 
+#### backup the server immediately from the volume
+The regular backup process will only backup the server once per day, but if you want to backup the server immediately, you can use the following command to do it.
+
+```bash
+rm -rf ~/volume-tmp-transfer
+docker run --rm -v minecraft_mc:/data -v ~/volume-tmp-transfer:/backup alpine ash -c "cd /data ; cp -av . /backup/"
+```
+
+Then, restore the backup by the following command.
+
+```bash
+docker run --rm -v minecraft_mc:/data -v ~/volume-tmp-transfer:/backup alpine ash -c "cd /backup ; cp -av . /data/"
+rm -rf ~/volume-tmp-transfer
+```
+
 ## How to remove unused mods, datapacks, and other things
 
 Usually this happened when we remove a mod "A" in `mods.txt`. The mod "A" will still in the `mods` folder, since there's no any integrations can help us apply mod-removal changes automatically. This will cause the server to crash once server's version has upgraded to a newer number but the mod "A" didn't.
