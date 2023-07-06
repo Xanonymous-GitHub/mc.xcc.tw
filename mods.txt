@@ -81,7 +81,7 @@ https://cdn.modrinth.com/data/ccKDOlHs/versions/DgIYuFEF/owo-lib-0.11.0%2B1.20.j
 # https://mediafilez.forgecdn.net/files/4509/639/Better+MC+%5bFABRIC%5d+1.19.2+v17.5+HF.zip
 
 # https://modrinth.com/datapack/vanilla-refresh/versions 1.20.1
-https://cdn.modrinth.com/data/gWO6Zqey/versions/TvTKdtrw/vanilla-refresh-v1.4.16c.jar
+https://cdn.modrinth.com/data/gWO6Zqey/versions/Bw7pcHg0/vanilla-refresh-1.4.16.jar
 
 # https://modrinth.com/mod/xaeros-minimap-fair/versions
 # https://cdn.modrinth.com/data/JkSi2Fzx/versions/4I7b0kZz/Xaeros_Minimap_FP23.4.0_Fabric_1.19.4.jar
