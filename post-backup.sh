@@ -2,8 +2,8 @@
 
 # This script is executed after the auto backup operation is completed.
 
-# Install git and git-lfs through apt. (minimal install)
-apt update && apt install -y git git-lfs
+# Install git and git-lfs through apk (the backup image is based on alpine).
+apk update && apk add --no-cache git git-lfs
 
 # The directory where the Minecraft backups are stored.
 # This is the directory that is specified in the `docker-compose.yml` file.
