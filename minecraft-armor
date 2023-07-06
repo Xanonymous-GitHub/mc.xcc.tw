@@ -4,11 +4,21 @@ profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
   #include <abstractions/base>
 
   # Network access
-  network tcp,
-  network udp,
+  network inet tcp,
+  network inet udp,
+
+  # Allow access to the Minecraft server port
+  network inet dgram,
+  network inet6 dgram,
+  network inet stream,
+  network inet6 stream,
+
+  # Allow access bash
+  /bin/bash ix,
 
   # Deny raw socket and network packet modifications; this is not usually needed for a Minecraft server
   deny network raw,
+  deny network packet,
   deny capability net_admin,
 
   # File access - restrict as much as possible
