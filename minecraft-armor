@@ -1,0 +1,53 @@
+#include <tunables/global>
+
+profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
+  #include <abstractions/base>
+
+  # Network access
+  network,
+  network tcp,
+  network udp,
+
+  # Deny raw socket and network packet modifications; this is not usually needed for a Minecraft server
+  deny network raw,
+  deny capability net_admin,
+
+  # File access - restrict as much as possible
+  # Replace with paths your server needs
+  /var/lib/docker/** r,
+  /etc/hostname r,
+  /etc/hosts r,
+  /etc/resolv.conf r,
+
+  # Basic permissions
+  capability,
+  deny capability mknod,
+  deny capability sys_admin,
+  deny capability sys_module,
+  deny capability sys_rawio,
+
+  # Deny mount operations
+  deny mount,
+
+  # Deny ability to make their memory unwritable or undeletable
+  deny mprotect,
+
+  # Deny access to the kernel syslog
+  deny syslog,
+
+  # Deny writing to files in /sys and /proc
+  deny /sys/** w,
+  deny /proc/** w,
+
+  # Deny IPC lockdown
+  deny ipc,
+
+  # Deny raw and packet sockets
+  deny packet,
+  deny unix,
+
+  # Deny all other system calls
+  deny @{PROC}/* w,   # deny write for all files directly in /proc (not in a subdir)
+  deny @{PROC}/{[^1-9],[^1-9][^0-9],[^1-9s][^0-9y][^0-9s],[^1-9][^0-9][^0-9][^0-9]*}/** w,
+  deny @{PROC}/sys/** w
+}
