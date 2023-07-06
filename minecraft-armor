@@ -13,8 +13,9 @@ profile minecraft-armor flags=(attach_disconnected,mediate_deleted) {
   network inet stream,
   network inet6 stream,
 
-  # Allow access bash
+  # Allow access
   /bin/bash ix,
+  /start ix,
 
   # Deny raw socket and network packet modifications; this is not usually needed for a Minecraft server
   deny network raw,
