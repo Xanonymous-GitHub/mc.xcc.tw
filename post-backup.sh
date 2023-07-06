@@ -4,12 +4,13 @@
 
 # The directory where the Minecraft backups are stored.
 # This is the directory that is specified in the `docker-compose.yml` file.
-readonly BACKUP_DIR=~/minecraft/mc-backups
+# Note that this path is pointed to the directory inside the container.
+readonly BACKUP_DIR=/backups
 
 # The directory where the latest backup file is copied to.
 # This is a git repository for pushing the latest backup file to GitHub.
 # So before running this script, you need to initialize the git repository.
-readonly BACKUP_POOL_DIR=~/minecraft-backup-pool
+readonly BACKUP_POOL_DIR=/pool
 
 # Find the latest backup file in the `~/minecraft/mc-backups` directory.
 readonly latest_backup_file=$(find $BACKUP_DIR -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d" ")

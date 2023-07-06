@@ -141,6 +141,9 @@ services:
     # use a host attached directory so that it in turn can be backed up
     # to external/cloud storage
     - ./mc-backups:/backups
+    # use a host attached directory to store the pool of backups
+    - ~/minecraft-backup-pool:/pool
+    # mount the post-backup script
     - ./post-backup.sh:/post-backup.sh:ro
     # share network namespace with server to simplify rcon access
     network_mode: "service:mc"
