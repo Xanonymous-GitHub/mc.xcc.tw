@@ -6,11 +6,7 @@ services:
     security_opt:
       - apparmor=minecraft-armor
     # Manually setup apparmor profile, since the rootless mode doesn't support it.
-    command: >
-      sh -c
-      echo "exec minecraft-armor" > /proc/self/attr/exec;
-      echo /proc/self/attr/exec;
-      /start
+    entrypoint: ["enforced-entrypoint.sh"]
     # Volumes map paths on the host to paths in the container
     volumes:
       # Stores Minecraft data, making it persistent and re-usable among other containers
