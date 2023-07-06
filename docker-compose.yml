@@ -6,7 +6,8 @@ services:
     security_opt:
       - apparmor=minecraft-armor
     # Manually setup apparmor profile, since the rootless mode doesn't support it.
-    entrypoint: ["enforced-entrypoint.sh"]
+    command: ["enforced-entrypoint.sh"]
+    entrypoint: ["exit 0"] # Disable the default entrypoint
     # Volumes map paths on the host to paths in the container
     volumes:
       # Stores Minecraft data, making it persistent and re-usable among other containers
