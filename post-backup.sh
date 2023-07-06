@@ -27,7 +27,7 @@ cp "$latest_backup_file" $BACKUP_POOL_DIR
 # Push the latest backup file to GitHub using git-lfs.
 cd $BACKUP_POOL_DIR || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
-git add "$FILE_BASENAME"
+git add "."
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
 git commit -m "Update the latest backup file $FILE_BASENAME"
