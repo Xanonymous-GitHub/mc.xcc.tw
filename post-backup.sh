@@ -25,7 +25,7 @@ readonly FILE_BASENAME=$(basename "$latest_backup_file")
 git pull origin main
 
 # Remove the previous backup file from the git repository. (This should be done before any un-staged changes are made.)
-# git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.tgz' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.tgz' --prune-empty --tag-name-filter cat -- --all
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
@@ -37,4 +37,4 @@ git add "."
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
 git commit -m "Update the latest backup file $FILE_BASENAME"
-git push origin main
+git push origin main -f
