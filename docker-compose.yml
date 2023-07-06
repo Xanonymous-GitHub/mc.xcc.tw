@@ -2,9 +2,7 @@ version: "3"
 
 services:
   mc:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: itzg/minecraft-server:java20-alpine
     security_opt:
       - apparmor=minecraft-armor
     # Volumes map paths on the host to paths in the container
