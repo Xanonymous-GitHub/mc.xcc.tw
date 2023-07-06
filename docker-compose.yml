@@ -131,7 +131,7 @@ services:
   backups:
     image: itzg/mc-backup
     environment:
-      BACKUP_INTERVAL: "24h"
+      BACKUP_INTERVAL: "4h"
       # instead of network_mode below, could declare RCON_HOST
       # RCON_HOST: mc
     volumes:
