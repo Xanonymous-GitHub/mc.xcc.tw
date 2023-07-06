@@ -18,9 +18,6 @@ readonly BACKUP_POOL_DIR=/pool
 # Find the latest backup file in the `BACKUP_DIR` directory.
 readonly latest_backup_file=$(find $BACKUP_DIR -type f -exec basename {} \; | sort | tail -n 1 | xargs -I{} find $BACKUP_DIR -name {})
 
-# Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
-cp "$latest_backup_file" $BACKUP_POOL_DIR
-
 # Push the latest backup file to GitHub using git-lfs.
 cd $BACKUP_POOL_DIR || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
@@ -32,6 +29,9 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.tgz
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
+
+# Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
+cp "$latest_backup_file" $BACKUP_POOL_DIR
 
 git add "."
 git config --global user.email "auto-actions[bot]"
