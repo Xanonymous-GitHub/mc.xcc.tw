@@ -148,6 +148,7 @@ services:
     # share network namespace with server to simplify rcon access
     network_mode: "service:mc"
     restart: always
+    pull_policy: "always" # Always pull the latest image
     depends_on:
       - mc
 
