@@ -94,3 +94,6 @@ https://cdn.modrinth.com/data/5y2R1ofr/versions/QEcfWaHz/mine-treasure-1.2.9.jar
 
 # https://modrinth.com/datapack/spawn-animations/versions 1.20.1
 https://cdn.modrinth.com/data/zrzYrlm0/versions/id5iTpik/spawn-animations-1.9.1.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/worldedit/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4586/218/worldedit-mod-7.2.15.jar
