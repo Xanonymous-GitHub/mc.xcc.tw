@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mc:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:java20-alpine
     security_opt:
       - apparmor=minecraft-armor
     # Manually setup apparmor profile, since the rootless mode doesn't support it.
