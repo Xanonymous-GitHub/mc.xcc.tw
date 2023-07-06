@@ -37,4 +37,4 @@ git add "."
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
 git commit -m "Update the latest backup file $FILE_BASENAME"
-git push origin main
+git push origin main --force
