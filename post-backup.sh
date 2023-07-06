@@ -12,13 +12,13 @@ readonly BACKUP_DIR=/backups
 # So before running this script, you need to initialize the git repository.
 readonly BACKUP_POOL_DIR=/pool
 
-# Find the latest backup file in the `~/minecraft/mc-backups` directory.
-readonly latest_backup_file=$(find $BACKUP_DIR -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d" ")
+# Find the latest backup file in the `BACKUP_DIR` directory.
+readonly latest_backup_file=$(find $BACKUP_DIR -type f -exec basename {} \; | sort | tail -n 1 | xargs -I{} find $BACKUP_DIR -name {})
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
 
-# Copy the latest backup file to the `~/minecraft/mc-backups/latest` directory.
+# Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
 cp "$latest_backup_file" $BACKUP_POOL_DIR
 
 # Push the latest backup file to GitHub using git-lfs.
