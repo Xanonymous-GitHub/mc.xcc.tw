@@ -1,0 +1,1 @@
+https://{USERNAME}:{TOKEN}@gitlab.com/{USERNAME}/{REPO_NAME}.git

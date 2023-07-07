@@ -163,4 +163,4 @@ volumes:
 
 secrets:
   mc-backup-origin-with-key:
-    external: true
+    file: ./backup-origin.txt
