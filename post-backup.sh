@@ -2,8 +2,11 @@
 
 # This script is executed after the auto backup operation is completed.
 
-# Install git and git-lfs through apk (the backup image is based on alpine).
-apk update && apk add --no-cache git git-lfs
+# Install git, git-lfs, and pip through apk (the backup image is based on alpine).
+apk add --no-cache git git-lfs py3-pip
+
+# Install git-filter-repo through pip.
+pip3 install --no-cache-dir git-filter-repo
 
 # The directory where the Minecraft backups are stored.
 # This is the directory that is specified in the `docker-compose.yml` file.
@@ -24,8 +27,9 @@ readonly FILE_BASENAME=$(basename "$latest_backup_file")
 
 git pull origin main
 
-# Remove the previous backup file from the git repository. (This should be done before any un-staged changes are made.)
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.tgz' --prune-empty --tag-name-filter cat -- --all
+# Remove the previous backup file from the git repository, using git-filter-repo.
+# This should be done before any un-staged changes are made.
+git filter-repo --path-glob '*.tgz' --invert-paths
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
