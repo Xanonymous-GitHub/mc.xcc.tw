@@ -9,4 +9,4 @@ services:
     pull_policy: "always"
 
 volumes:
-  mc: {}
+  mc: { }
