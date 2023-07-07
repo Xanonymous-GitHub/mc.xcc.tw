@@ -17,7 +17,7 @@ services:
       - "./datapacks/:/datapacks/"
     # Expose ports to the host machine
     ports:
-      - 25565:25565 # Default Minecraft port
+      - "25565:25565" # Default Minecraft port
     pull_policy: "always" # Always pull the latest image
     environment:
       VERSION: "1.20.1" # Minecraft version
@@ -131,16 +131,26 @@ services:
       # instead of network_mode below, could declare RCON_HOST
       RCON_HOST: mc
       POST_BACKUP_SCRIPT_FILE: /post-backup.sh
+      # The directory where the Minecraft backups are stored.
+      BACKUP_DIR: /backups
+      # The directory where the latest backup file is copied to.
+      # This is a git repository for pushing the latest backup file to GitHub/GitLab.
+      # So before running this script, you need to initialize the git repository.
+      BACKUP_POOL_DIR: /pool
+      # The name of the secret that stores the remote URL of the git repository for pushing the latest backup file.
+      REMOTE_DEST_ACCESS_TOKEN_SECRET_NAME: mc-backup-origin-with-key
+    secrets:
+      - mc-backup-origin-with-key
     volumes:
-    # mount the same volume used by server, but read-only
-    - mc:/data:ro
-    # use a host attached directory so that it in turn can be backed up
-    # to external/cloud storage
-    - ./mc-backups:/backups
-    # use a host attached directory to store the pool of backups
-    - ~/minecraft-backup-pool:/pool
-    # mount the post-backup script
-    - ./post-backup.sh:/post-backup.sh:ro
+      # mount the same volume used by server, but read-only
+      - mc:/data:ro
+      # use a host attached directory so that it in turn can be backed up
+      # to external/cloud storage
+      - ./mc-backups:/backups
+      # use a host attached directory to store the pool of backups
+      - ~/minecraft-backup-pool:/pool
+      # mount the post-backup script
+      - ./post-backup.sh:/post-backup.sh:ro
     # share network namespace with server to simplify rcon access
     network_mode: "service:mc"
     restart: always
@@ -149,4 +159,8 @@ services:
       - mc
 
 volumes:
-  mc: {}
+  mc: { }
+
+secrets:
+  mc-backup-origin-with-key:
+    external: true

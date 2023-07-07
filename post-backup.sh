@@ -8,21 +8,14 @@ apk add --no-cache git git-lfs py3-pip
 # Install git-filter-repo through pip.
 pip3 install --no-cache-dir git-filter-repo
 
-# The directory where the Minecraft backups are stored.
-# This is the directory that is specified in the `docker-compose.yml` file.
-# Note that this path is pointed to the directory inside the container.
-readonly BACKUP_DIR=/backups
-
-# The directory where the latest backup file is copied to.
-# This is a git repository for pushing the latest backup file to GitHub.
-# So before running this script, you need to initialize the git repository.
-readonly BACKUP_POOL_DIR=/pool
-
 # Find the latest backup file in the `BACKUP_DIR` directory.
-readonly latest_backup_file=$(find $BACKUP_DIR -type f -exec basename {} \; | sort | tail -n 1 | xargs -I{} find $BACKUP_DIR -name {})
+readonly latest_backup_file=$(find "$BACKUP_DIR" -type f -exec basename {} \; | sort | tail -n 1 | xargs -I{} find "$BACKUP_DIR" -name {})
+
+# Find the remote URL of the git repository for pushing the latest backup file to GitLab.
+readonly BACKUP_REMOTE=$(cat /run/secrets/"$REMOTE_DEST_ACCESS_TOKEN_SECRET_NAME")
 
 # Push the latest backup file to GitHub using git-lfs.
-cd $BACKUP_POOL_DIR || exit
+cd "$BACKUP_POOL_DIR" || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
 
 git pull origin main
@@ -31,11 +24,15 @@ git pull origin main
 # This should be done before any un-staged changes are made.
 git filter-repo --path-glob '*.tgz' --invert-paths --force
 
+# Restore the remote URL of the git repository, since it is removed by git-filter-repo.
+git remote add origin "$BACKUP_REMOTE"
+git branch --set-upstream-to=origin/main main
+
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
 
 # Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
-cp "$latest_backup_file" $BACKUP_POOL_DIR
+cp "$latest_backup_file" "$BACKUP_POOL_DIR"
 
 git add "."
 
