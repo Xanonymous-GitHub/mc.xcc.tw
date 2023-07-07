@@ -34,7 +34,11 @@ rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
 cp "$latest_backup_file" $BACKUP_POOL_DIR
 
 git add "."
+
+git lfs lock "$FILE_BASENAME"
+
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
 git commit -m "Update the latest backup file $FILE_BASENAME"
+
 git push origin main -f
