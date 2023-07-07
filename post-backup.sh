@@ -22,7 +22,13 @@ git pull origin main
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
-git filter-repo --path-glob '*.tgz' --invert-paths --force
+git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty never
+
+# Cleanup the git-lfs files. (in .git folder)
+git for-each-ref --format="delete %(refname)" refs/original | git update-ref --stdin
+git reflog expire --expire=now --all
+git gc --prune=now
+git lfs prune
 
 # Restore the remote URL of the git repository, since it is removed by git-filter-repo.
 git remote add origin "$BACKUP_REMOTE"
