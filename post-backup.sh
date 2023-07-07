@@ -29,7 +29,7 @@ git pull origin main
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
-git filter-repo --path-glob '*.tgz' --invert-paths
+git filter-repo --path-glob '*.tgz' --invert-paths --force
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
