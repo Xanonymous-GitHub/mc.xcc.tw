@@ -34,7 +34,7 @@ services:
       MOTD: "\u00A7f\u00A7fWelcome to [\u00A74\u00A7l\u00A7k?\u00A7r] \u00A7eCocoa SMP\u00A7r\n\u00A7f\u00A7fJust play, and have fun!" # Message of the day
       SERVER_NAME: "CoCoa SMP" # Server name
       OPS: "XLTU" # OP players
-      MEMORY: "16G" # Amount of memory allocated for the server
+      MEMORY: "24G" # Amount of memory allocated for the server
       NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
       SIMULATION_DISTANCE: 3 # Server view distance in chunks
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
@@ -42,7 +42,7 @@ services:
       SYNC_CHUNK_WRITES: "false" # Control over the rate chunks are saved
       # JVM options for better performance and compatibility
       JVM_OPTS: >
-        -Xms4G -Xmx16G
+        -Xms12G -Xmx24G
         -XX:+UnlockExperimentalVMOptions 
         -XX:+UnlockDiagnosticVMOptions 
         -Dterminal.jline=false 
