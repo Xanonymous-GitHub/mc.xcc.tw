@@ -100,3 +100,18 @@ https://mediafilez.forgecdn.net/files/4586/218/worldedit-mod-7.2.15.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.20.1
 https://cdn.modrinth.com/data/3D8J5fZB/versions/DdBx3GhA/shareenderchest-1.6.0.jar
+
+# https://github.com/NimajnebEC/auto-elytra/releases/ 1.20.1
+https://github.com/NimajnebEC/auto-elytra/releases/download/v1.0.1/AutoElytra-1.0.1.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4636/276/Patchouli-1.20.1-81-FABRIC.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-fabric/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4601/240/awesomedungeon-fabric-1.20.1-3.2.0.jar
+
+# https://legacy.curseforge.com/minecraft/mc-mods/image-mod/download/4671286 1.20.1
+https://mediafilez.forgecdn.net/files/4671/286/imagemod-1.6.1.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/better-village-fabric/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4601/249/bettervillage-fabric-1.20.1-3.1.0.jar
