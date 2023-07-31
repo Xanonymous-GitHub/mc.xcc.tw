@@ -75,6 +75,9 @@ https://cdn.modrinth.com/data/5IovSY3u/versions/XBmdyuit/raknetify-fabric-0.1.0%
 # https://modrinth.com/mod/owo-lib/versions 1.20.1
 https://cdn.modrinth.com/data/ccKDOlHs/versions/m23n3uIM/owo-lib-0.11.1%2B1.20.jar
 
+# https://www.curseforge.com/minecraft/mc-mods/library-ferret-fabric/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4601/231/libraryferret-fabric-1.20.1-4.0.0.jar
+
 # Features mods
 
 # https://www.curseforge.com/minecraft/modpacks/better-mc-fabric
