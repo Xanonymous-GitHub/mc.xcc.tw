@@ -18,6 +18,14 @@ readonly BACKUP_REMOTE=$(cat /run/secrets/"$REMOTE_DEST_ACCESS_TOKEN_SECRET_NAME
 cd "$BACKUP_POOL_DIR" || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
 
+# Check if the remote named "origin" already exists
+if git remote | grep -q '^origin$'; then
+    echo "Remote 'origin' already exists. Exiting."
+else
+    git remote add origin "$BACKUP_REMOTE"
+    echo "Remote 'origin' added with URL: $BACKUP_REMOTE"
+fi
+
 git pull origin main --rebase
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
@@ -32,10 +40,14 @@ git lfs prune
 
 # Restore the remote URL of the git repository, since it is removed by git-filter-repo.
 git remote add origin "$BACKUP_REMOTE"
+git fetch
 git branch --set-upstream-to=origin/main main
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
+
+# Remove all the git replace refs, unless the git branch tree will be very large.
+git replace --list | xargs -r git replace -d
 
 # Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
 cp "$latest_backup_file" "$BACKUP_POOL_DIR"
