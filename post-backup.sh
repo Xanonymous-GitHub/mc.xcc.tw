@@ -18,7 +18,7 @@ readonly BACKUP_REMOTE=$(cat /run/secrets/"$REMOTE_DEST_ACCESS_TOKEN_SECRET_NAME
 cd "$BACKUP_POOL_DIR" || exit
 readonly FILE_BASENAME=$(basename "$latest_backup_file")
 
-git pull origin main
+git pull origin main --rebase
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
