@@ -26,7 +26,7 @@ else
     echo "Remote 'origin' added with URL: $BACKUP_REMOTE"
 fi
 
-git pull origin main --rebase
+git pull --rebase
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
