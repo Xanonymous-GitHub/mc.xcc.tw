@@ -59,6 +59,9 @@ git lfs lock "$FILE_BASENAME"
 
 git config --global user.email "auto-actions[bot]"
 git config --global user.name "auto-actions[bot]"
+
+# Remove all the git replace refs, unless the git branch tree will be very large. (again)
+git replace --list | xargs -r git replace -d
 git commit -m "Update the latest backup file $FILE_BASENAME"
 
 git push origin main -f
