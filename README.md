@@ -44,6 +44,7 @@ You can use `copy-backup-example.sh` to copy the latest backup to your local com
 ```
 
 #### backup the server immediately from the volume
+
 The regular backup process will only backup the server once per day, but if you want to backup the server immediately, you can use the following command to do it.
 
 ```bash
@@ -59,25 +60,35 @@ rm -rf ~/volume-tmp-transfer
 ```
 
 #### Setup the git-lfs for backup
+
+![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*wWLUp_ZrxBppQ-fPmrwyLQ.jpeg)
+
+Instead of GitHub, GitLab provides unlimited bandwidth for git-lfs, and a 10GB free storage for each repository. So we can use GitLab to backup the server, if the world size is less than 10GB.
+
 We may consider using git-lfs to backup the server, but we need to setup the git-lfs first.
 
 Assume we have a `minecraft-backup-pool` lfs repository, and we want to backup the server to it.
 
 First, init the repository.
+
 ```bash
 cd ~/minecraft-backup-pool
 git init
 ```
 
-Then, go to GitHub and generate a Fine-grained personal access token.
+Then, go to GitLab and create a new repository.
+And create a new access token in `Settings > Access Tokens`.
 The token should have at least two permissions:
-- `Contents:read/write` of repository
-- `Metadata:read` of repository
 
-Then, add the remote repository.
+- `read_repository`
+- `write_repository`
+  And choose the `Developer` role for the token.
+
+After token created, go to your Minecraft's machine and add the remote repository.
+(In the `minecraft-backup-pool`)
 
 ```bash
-git remote add origin https://{TOKEN}@github.com/{OWNER}/{REPO}.git
+git remote add origin https://{USERNAME}:{TOKEN}@gitlab.com/{USERNAME}/{REPONAME}.git
 ```
 
 Then, setup the git-lfs.
@@ -98,6 +109,15 @@ git lfs track "*.tgz"
 ```
 
 And please note that before you start to push lfs files to a remote repository, you have to enable the `Include Git LFS objects in archives` option in the repository's settings.
+
+### Automation
+
+You can check the `post-backup.sh`, `docker-compose.yml` to see how I use `git-lfs` to backup the server, which runs all steps I described above automatically.
+
+Things you may need to care about:
+
+- Put your token-url in a secret place. In my case, I put it in the docker secret.
+- Consider rewrite all git history to ensure the previous LFS files won't existed in the `.git` folder. (I use `git filter-repo` to do this). This will help us to reduce the repository's size, and also help us to avoid the LFS files to stay on the remote repository. Using `git filter-repo` will remove the git remote configuration, so we need to add it again.
 
 ## How to remove unused mods, datapacks, and other things
 
