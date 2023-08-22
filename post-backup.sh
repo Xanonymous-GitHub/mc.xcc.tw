@@ -31,7 +31,7 @@ git pull --rebase
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
-git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty never
+git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty always
 
 # Cleanup the git-lfs files. (in .git folder)
 git for-each-ref --format="delete %(refname)" refs/original | git update-ref --stdin
