@@ -23,6 +23,7 @@ if git remote | grep -q '^origin$'; then
     echo "Remote 'origin' already exists. Exiting."
 else
     git remote add origin "$BACKUP_REMOTE"
+    git fetch
     echo "Remote 'origin' added with URL: $BACKUP_REMOTE"
 fi
 
