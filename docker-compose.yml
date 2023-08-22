@@ -123,7 +123,7 @@ services:
       # DATAPACKS_FILE: "/extras/datapacks.txt"
       DATAPACKS: "/datapacks"
     tty: true
-    stdin_open: false
+    stdin_open: true
     restart: unless-stopped
 
   backups:
