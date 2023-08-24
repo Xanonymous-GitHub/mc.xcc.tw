@@ -43,6 +43,7 @@ git lfs prune
 git remote add origin "$BACKUP_REMOTE"
 git fetch
 git branch --set-upstream-to=origin/main main
+git reset origin/main --hard
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
