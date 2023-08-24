@@ -44,6 +44,9 @@ git remote add origin "$BACKUP_REMOTE"
 git fetch
 git branch --set-upstream-to=origin/main main
 
+# Create a new orphan branch, so that the previous commit history is not included in the new commit.
+git checkout --orphan tmp
+
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
 
@@ -63,5 +66,10 @@ git config --global user.name "auto-actions[bot]"
 # Remove all the git replace refs, unless the git branch tree will be very large. (again)
 git replace --list | xargs -r git replace -d
 git commit -m "Update the latest backup file $FILE_BASENAME"
+
+# Move the main branch to the latest commit on the tmp branch.
+git branch -M main
+# Delete all other branches as needed, and you may also want to garbage collect all the unreachable objects.
+git gc --prune=all
 
 git push origin main -f
