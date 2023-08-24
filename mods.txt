@@ -127,3 +127,6 @@ https://cdn.modrinth.com/data/LVN9ygNV/versions/pOxgWfwI/ledger-1.2.8.jar
 
 # https://minecraftcapes.net/download/fabric 1.20.1
 https://mediafilez.forgecdn.net/files/4634/306/MinecraftCapes+Fabric+1.20.1-12.3.6.jar
+
+# https://modrinth.com/mod/blossomtpa/versions?l=fabric&c=release 1.20.1
+https://cdn.modrinth.com/data/Y25EUH1s/versions/UCr47wvr/blossom-tpa-2.2.0%2B1.20.jar
