@@ -29,6 +29,9 @@ fi
 
 git pull --rebase
 
+# Clean up all the previous backups in the pool directory.
+rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
+
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
 git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty never
@@ -36,7 +39,7 @@ git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty never
 # Cleanup the git-lfs files. (in .git folder)
 git for-each-ref --format="delete %(refname)" refs/original | git update-ref --stdin
 git reflog expire --expire=now --all
-git gc --prune=now
+git gc --prune=all
 git lfs prune
 
 # Restore the remote URL of the git repository, since it is removed by git-filter-repo.
@@ -44,14 +47,11 @@ git remote add origin "$BACKUP_REMOTE"
 git fetch
 git branch --set-upstream-to=origin/main main
 
-# Create a new orphan branch, so that the previous commit history is not included in the new commit.
-git checkout --orphan tmp
-
-# Clean up all the previous backups in the pool directory.
-rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
-
 # Remove all the git replace refs, unless the git branch tree will be very large.
 git replace --list | xargs -r git replace -d
+
+# Create a new orphan branch, so that the previous commit history is not included in the new commit.
+git checkout --orphan tmp
 
 # Copy the latest backup file to the `BACKUP_POOL_DIR` directory.
 cp "$latest_backup_file" "$BACKUP_POOL_DIR"
