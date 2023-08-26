@@ -73,7 +73,7 @@ https://cdn.modrinth.com/data/5IovSY3u/versions/XBmdyuit/raknetify-fabric-0.1.0%
 # Required mods
 
 # https://github.com/TCPShield/RealIP/releases
-https://github.com/TCPShield/RealIP/releases/download/2.6.1/TCPShield-2.6.1.jar
+# https://github.com/TCPShield/RealIP/releases/download/2.6.1/TCPShield-2.6.1.jar
 
 # https://modrinth.com/mod/owo-lib/versions 1.20.1
 https://cdn.modrinth.com/data/ccKDOlHs/versions/m23n3uIM/owo-lib-0.11.1%2B1.20.jar
