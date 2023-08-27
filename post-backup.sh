@@ -28,11 +28,10 @@ else
 fi
 
 git pull --rebase
+git lfs pull
 
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
-
-git lfs pull
 
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
@@ -84,6 +83,4 @@ git branch -M main
 # Delete all other branches as needed, and you may also want to garbage collect all the unreachable objects.
 git gc --prune=all
 
-git pull --rebase
-
-git push
+git push --force-with-lease
