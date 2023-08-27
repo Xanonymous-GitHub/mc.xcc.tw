@@ -32,6 +32,8 @@ git pull --rebase
 # Clean up all the previous backups in the pool directory.
 rm -rf "${BACKUP_POOL_DIR:?}/"*.tgz
 
+git lfs pull
+
 # Remove the previous backup file from the git repository, using git-filter-repo.
 # This should be done before any un-staged changes are made.
 git filter-repo --path-glob '*.tgz' --invert-paths --force --prune-empty never
@@ -42,10 +44,23 @@ git reflog expire --expire=now --all
 git gc --prune=all
 git lfs prune
 
+git checkout --orphan tmp
+
+git config --global user.email "auto-actions[bot]"
+git config --global user.name "auto-actions[bot]"
+
+git replace --list | xargs -r git replace -d
+git commit -am "Refresh whole history"
+git branch -M main
+git gc --prune=all
+
 # Restore the remote URL of the git repository, since it is removed by git-filter-repo.
 git remote add origin "$BACKUP_REMOTE"
 git fetch
 git branch --set-upstream-to=origin/main main
+
+# Push the refresh commit.
+git push origin main -f
 
 # Remove all the git replace refs, unless the git branch tree will be very large.
 git replace --list | xargs -r git replace -d
@@ -60,9 +75,6 @@ git add "."
 
 git lfs lock "$FILE_BASENAME"
 
-git config --global user.email "auto-actions[bot]"
-git config --global user.name "auto-actions[bot]"
-
 # Remove all the git replace refs, unless the git branch tree will be very large. (again)
 git replace --list | xargs -r git replace -d
 git commit -m "Update the latest backup file $FILE_BASENAME"
@@ -72,4 +84,6 @@ git branch -M main
 # Delete all other branches as needed, and you may also want to garbage collect all the unreachable objects.
 git gc --prune=all
 
-git push origin main -f
+git pull --rebase
+
+git push
