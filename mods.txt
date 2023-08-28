@@ -84,6 +84,9 @@ https://mediafilez.forgecdn.net/files/4601/231/libraryferret-fabric-1.20.1-4.0.0
 # https://modrinth.com/mod/blossomlib/versions?l=fabric&c=release 1.20.1
 https://cdn.modrinth.com/data/Xw7lTsbM/versions/9FCuKhG5/blossom-lib-2.5.4%2B1.20.jar
 
+# https://www.curseforge.com/minecraft/mc-mods/cupboard/files?gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4714/94/cupboard-fabric-1.20.1-1.8.jar
+
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions 1.20.1
