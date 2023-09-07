@@ -116,9 +116,6 @@ https://mediafilez.forgecdn.net/files/4636/276/Patchouli-1.20.1-81-FABRIC.jar
 # https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-fabric/files?gameVersionTypeId=4 1.20.1
 https://mediafilez.forgecdn.net/files/4601/240/awesomedungeon-fabric-1.20.1-3.2.0.jar
 
-# https://legacy.curseforge.com/minecraft/mc-mods/image-mod/download/4671286 1.20.1
-https://mediafilez.forgecdn.net/files/4671/286/imagemod-1.6.1.jar
-
 # https://www.curseforge.com/minecraft/mc-mods/better-village-fabric/files?gameVersionTypeId=4 1.20.1
 https://mediafilez.forgecdn.net/files/4703/610/bettervillage-fabric-1.20.1-3.2.0.jar
 
@@ -127,9 +124,6 @@ https://cdn.modrinth.com/data/Vebnzrzj/versions/7VG8Evoq/LuckPerms-Fabric-5.4.88
 
 # https://modrinth.com/mod/ledger/versions?l=fabric 1.20.1
 https://cdn.modrinth.com/data/LVN9ygNV/versions/pOxgWfwI/ledger-1.2.8.jar
-
-# https://minecraftcapes.net/download/fabric 1.20.1
-https://mediafilez.forgecdn.net/files/4634/306/MinecraftCapes+Fabric+1.20.1-12.3.6.jar
 
 # https://modrinth.com/mod/blossomtpa/versions?l=fabric&c=release 1.20.1
 https://cdn.modrinth.com/data/Y25EUH1s/versions/UCr47wvr/blossom-tpa-2.2.0%2B1.20.jar
