@@ -70,6 +70,9 @@ https://cdn.modrinth.com/data/ftdbN0KK/versions/ivJ0srK8/badpackets-fabric-0.4.1
 # https://modrinth.com/plugin/raknetify/versions 1.20.1
 https://cdn.modrinth.com/data/5IovSY3u/versions/LgEDCvBs/raknetify-fabric-0.1.0%2Balpha.5.97-all.jar
 
+# https://modrinth.com/mod/servercore/versions?l=fabric 1.20.1
+https://cdn.modrinth.com/data/4WWQxlQP/versions/exA4UxFq/servercore-fabric-1.3.7%2B1.20.1.jar
+
 # Required mods
 
 # https://github.com/TCPShield/RealIP/releases
