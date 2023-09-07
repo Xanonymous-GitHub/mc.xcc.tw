@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# Ignore errors, since the errors will make the backup operation restart again and again.
+set +e
+
 # This script is executed after the auto backup operation is completed.
 
 # Install git, git-lfs, and pip through apk (the backup image is based on alpine).
