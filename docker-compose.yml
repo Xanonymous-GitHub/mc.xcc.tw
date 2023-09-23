@@ -132,7 +132,7 @@ services:
       BACKUP_INTERVAL: "24h"
       # instead of network_mode below, could declare RCON_HOST
       RCON_HOST: mc
-      POST_BACKUP_SCRIPT_FILE: /post-backup.sh
+      # POST_BACKUP_SCRIPT_FILE: /post-backup.sh
       # The directory where the Minecraft backups are stored.
       BACKUP_DIR: /backups
       # The directory where the latest backup file is copied to.
