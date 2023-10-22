@@ -22,7 +22,7 @@ services:
       - "25565:25565" # Default Minecraft port
     pull_policy: "always" # Always pull the latest image
     environment:
-      VERSION: "1.20.1" # Minecraft version
+      VERSION: "1.20.2" # Minecraft version
       EULA: "TRUE" # You need to agree to the EULA to run the server
       TYPE: "FABRIC" # Server type
       MODE: "survival" # Game mode
@@ -33,8 +33,8 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "true" # Overrides the server properties file on start up
       ICON: "https://i.imgur.com/wnrEgP7.png" # Server icon
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
-      MOTD: "\u00A7f\u00A7fWelcome to [\u00A74\u00A7l\u00A7k?\u00A7r] \u00A7eCocoa SMP\u00A7r\n\u00A7f\u00A7fJust play, and have fun!" # Message of the day
-      SERVER_NAME: "CoCoa SMP" # Server name
+      MOTD: "\u00a7f\u00a7k\u2022\u00a7c\u00a7l W\u00a76\u00a7le\u00a7e\u00a7llc\u00a7a\u00a7lo\u00a7b\u00a7lm\u00a7d\u00a7le\u00a7f\u00a7l to\u00a7e\u00a7l\u00a7o XCCTW\u00a7f\u00a7l !\u00a7r\n\u00a7f\u00a7lBuild your ideal hometown in pure\u00a7c\u00a7l\u00a7o Survival\u00a7f\u00a7l !" # Message of the day
+      SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
       MEMORY: "24G" # Amount of memory allocated for the server
       NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
