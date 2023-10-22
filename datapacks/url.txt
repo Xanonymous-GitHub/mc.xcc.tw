@@ -1,0 +1,33 @@
+# blazeandcave-s-advancements-pack
+# https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-1-12/
+
+# BACAP Language Pack
+# https://www.planetminecraft.com/texture-pack/bacap-language-pack/
+
+# Enchantment+
+# https://www.planetminecraft.com/data-pack/enchantment-1-16/
+
+# FTMC
+# https://www.planetminecraft.com/data-pack/1-13-instant-high-speed-railway-builder-tool-datapack/
+
+# Gorify
+# https://www.planetminecraft.com/data-pack/goremod-blood-for-every-one/
+
+# Heaven Dimension
+# https://www.planetminecraft.com/data-pack/heaven-dimension-4787648/
+
+# StarDust series
+# https://www.stardustlabs.net/datapacks
+# Incendium
+# Structory
+# Terralith
+# Nullspace
+
+# PK waystone
+# https://www.planetminecraft.com/data-pack/waystones/
+
+# Towns and towers
+# https://www.planetminecraft.com/data-pack/towns-amp-towers-structure-overhaul/
+
+# Treecapitator
+# https://www.planetminecraft.com/data-pack/treecapitator-datapack-1-13/
