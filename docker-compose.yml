@@ -33,7 +33,6 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "true" # Overrides the server properties file on start up
       ICON: "https://i.imgur.com/wnrEgP7.png" # Server icon
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
-      MOTD: "§l §f       ☻ §5§lWelcome§r §lto§r §c§lX§6§lC§e§lC§a§lT§b§lW§f §lSurvival§r §lSMP !§r\n§l §r     §9§lBuild your ideal hometown and city !" # Message of the day
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
       MEMORY: "24G" # Amount of memory allocated for the server
@@ -42,6 +41,7 @@ services:
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
       VIEW_DISTANCE: 6 # View distance from the player
       SYNC_CHUNK_WRITES: "false" # Control over the rate chunks are saved
+      ALLOW_FLIGHT: "true" # Allow users to use flight on the server
       # JVM options for better performance and compatibility
       JVM_OPTS: >
         -Xms12G -Xmx24G
