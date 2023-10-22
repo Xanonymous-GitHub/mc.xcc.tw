@@ -33,7 +33,7 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "true" # Overrides the server properties file on start up
       ICON: "https://i.imgur.com/wnrEgP7.png" # Server icon
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
-      MOTD: "\u00a7f\u00a7k\u2022\u00a7c\u00a7l W\u00a76\u00a7le\u00a7e\u00a7llc\u00a7a\u00a7lo\u00a7b\u00a7lm\u00a7d\u00a7le\u00a7f\u00a7l to\u00a7e\u00a7l\u00a7o XCCTW\u00a7f\u00a7l !\u00a7r\n\u00a7f\u00a7lBuild your ideal hometown in pure\u00a7c\u00a7l\u00a7o Survival\u00a7f\u00a7l !" # Message of the day
+      MOTD: "§l §f       ☻ §5§lWelcome§r §lto§r §c§lX§6§lC§e§lC§a§lT§b§lW§f §lSurvival§r §lSMP !§r\n§l §r     §9§lBuild your ideal hometown and city !" # Message of the day
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
       MEMORY: "24G" # Amount of memory allocated for the server
