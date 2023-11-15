@@ -1,10 +1,10 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.20.2
-https://cdn.modrinth.com/data/P7dR8mSH/versions/ZI1BEw1i/fabric-api-0.90.4%2B1.20.2.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/FhOnpSMY/fabric-api-0.90.7%2B1.20.2.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.20.2
-https://cdn.modrinth.com/data/Ha28R6CL/versions/48ri5y9r/fabric-language-kotlin-1.10.10%2Bkotlin.1.9.10.jar
+https://cdn.modrinth.com/data/Ha28R6CL/versions/atZwzPrT/fabric-language-kotlin-1.10.13%2Bkotlin.1.9.20.jar
 
 # Optimization mods
 # The mods used in the server, aims for performance and stability.
@@ -14,7 +14,7 @@ https://cdn.modrinth.com/data/Ha28R6CL/versions/48ri5y9r/fabric-language-kotlin-
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/qdzL5Hkg/lithium-fabric-mc1.20.2-0.12.0.jar
 
 # https://modrinth.com/mod/vmp-fabric/versions 1.20.2
-https://cdn.modrinth.com/data/wnEe9KBa/versions/PLbYlCF2/vmp-fabric-mc1.20.2-0.2.0%2Bbeta.7.120-all.jar
+https://cdn.modrinth.com/data/wnEe9KBa/versions/JFPfvz8w/vmp-fabric-mc1.20.2-0.2.0%2Bbeta.7.121-all.jar
 
 # https://modrinth.com/mod/starlight/versions 1.20.2
 https://cdn.modrinth.com/data/H8CaAYZC/versions/PLbxwptm/starlight-1.1.3%2Bfabric.5867eae.jar
@@ -99,7 +99,7 @@ https://cdn.modrinth.com/data/rkN8aqci/versions/xXhZI4u3/async-locator-fabric-1.
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions?l=fabric 1.20.2
-https://cdn.modrinth.com/data/gWO6Zqey/versions/5SuTHcmu/vanilla-refresh-1.4.17c.jar
+https://cdn.modrinth.com/data/gWO6Zqey/versions/RvNrgpKE/vanilla-refresh-1.4.18a.jar
 
 # https://modrinth.com/datapack/mine-treasure/versions?l=fabric 1.20.2
 https://cdn.modrinth.com/data/5y2R1ofr/versions/8Q657FWi/mine-treasure-1.3.0.jar
