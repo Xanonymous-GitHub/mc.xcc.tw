@@ -133,3 +133,6 @@ https://cdn.modrinth.com/data/LVN9ygNV/versions/8WSkA7qO/ledger-1.2.9.jar
 
 # https://modrinth.com/mod/blossomtpa/versions?l=fabric&c=release 1.20.2
 https://cdn.modrinth.com/data/Y25EUH1s/versions/hL2Tb1mT/blossom-tpa-2.2.1%2B1.20.jar
+
+# https://www.curseforge.com/minecraft/mc-mods/buildpaste-for-fabric/files?page=1&pageSize=20&gameVersionTypeId=4 1.20.1
+https://mediafilez.forgecdn.net/files/4795/378/BuildPasteFabric-1.20.1v1.5.1.jar
