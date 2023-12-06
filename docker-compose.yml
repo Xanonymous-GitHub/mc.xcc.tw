@@ -141,6 +141,10 @@ services:
       BACKUP_POOL_DIR: /pool
       # The name of the secret that stores the remote URL of the git repository for pushing the latest backup file.
       REMOTE_DEST_ACCESS_TOKEN_SECRET_NAME: mc-backup-origin-with-key
+      # Skip backup if no players are online
+      PAUSE_IF_NO_PLAYERS: "false"
+      # The number of days to keep backups for
+      PRUNE_BACKUPS_DAYS: "4"
     secrets:
       - mc-backup-origin-with-key
     volumes:
