@@ -108,7 +108,7 @@ https://cdn.modrinth.com/data/zrzYrlm0/versions/pQ0HEnlC/spawnanimations-v1.9.4-
 https://mediafilez.forgecdn.net/files/4954/407/worldedit-mod-7.2.18-dist.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.20.2
-https://cdn.modrinth.com/data/3D8J5fZB/versions/DdBx3GhA/shareenderchest-1.6.0.jar
+# https://cdn.modrinth.com/data/3D8J5fZB/versions/DdBx3GhA/shareenderchest-1.6.0.jar
 
 # https://github.com/NimajnebEC/auto-elytra/releases/ 1.20.1
 https://github.com/NimajnebEC/auto-elytra/releases/download/v2.1.0-1.20.1/AutoElytra-2.1.0-1.20.1.jar
