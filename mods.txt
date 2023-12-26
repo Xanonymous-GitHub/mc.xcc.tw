@@ -73,7 +73,7 @@ https://cdn.modrinth.com/data/4WWQxlQP/versions/H1fXXdNC/servercore-fabric-1.4.0
 https://github.com/TCPShield/RealIP/releases/download/2.6.1/TCPShield-2.6.1.jar
 
 # https://modrinth.com/mod/owo-lib/versions?l=fabric 1.20.2
-https://cdn.modrinth.com/data/ccKDOlHs/versions/DYgDdRtg/owo-lib-0.11.4%2B1.20.2.jar
+# https://cdn.modrinth.com/data/ccKDOlHs/versions/DYgDdRtg/owo-lib-0.11.4%2B1.20.2.jar
 
 # https://www.curseforge.com/minecraft/mc-mods/library-ferret-fabric/files?gameVersionTypeId=4 1.20.1
 https://mediafilez.forgecdn.net/files/4601/231/libraryferret-fabric-1.20.1-4.0.0.jar
