@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mc:
-    image: itzg/minecraft-server:java21-alpine
+    image: itzg/minecraft-server:java21-graalvm
     security_opt:
       - apparmor=minecraft-armor
     # Volumes map paths on the host to paths in the container
@@ -111,9 +111,32 @@ services:
         -XX:+UseXMMForArrayCopy 
         -XX:+UseTransparentHugePages 
         -XX:+UseLargePages 
+        -XX:+EnableJVMCI 
+        -XX:+EnableJVMCIProduct 
+        -XX:+UseJVMCICompiler 
+        -XX:ConcGCThreads=2 
+        -XX:MaxNodeLimit=240000 
+        -XX:NodeLimitFudgeFactor=8000 
+        -XX:ParallelGCThreads=6 
         -Dfile.encoding=UTF-8 
         -Xlog:async 
         -Djava.security.egd=file:/dev/urandom --add-modules jdk.incubator.vector
+        -Djline.terminal=jline.UnsupportedTerminal 
+        -Djvmci.Compiler=graal 
+        -Daikars.new.flags=true 
+        -Dusing.aikars.flags=https://mcflags.emc.gs 
+        -Dgraal.DetectInvertedLoopsAsCounted=true 
+        -Dgraal.EnterprisePartialUnroll=true 
+        -Dgraal.InfeasiblePathCorrelation=true 
+        -Dgraal.LoopInversion=true 
+        -Dgraal.OptDuplication=true 
+        -Dgraal.SpeculativeGuardMovement=true 
+        -Dgraal.StripMineNonCountedLoops=true 
+        -Dgraal.TuneInlinerExploration=1 
+        -Dgraal.UsePriorityInlining=true 
+        -Dgraal.Vectorization=true 
+        -Dgraal.VectorizeHashes=true 
+        -Dgraal.VectorizeSIMD=true --add-modules=jdk.incubator.vector
 
       REMOVE_OLD_MODS: "true"
       OVERRIDE_OPS: "true"
