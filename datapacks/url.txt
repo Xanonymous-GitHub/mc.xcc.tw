@@ -24,7 +24,7 @@
 # Nullspace
 
 # PK waystone
-# https://www.planetminecraft.com/data-pack/waystones/
+# https://modrinth.com/datapack/waystones-data-pack/versions
 
 # Towns and towers
 # https://www.planetminecraft.com/data-pack/towns-amp-towers-structure-overhaul/
