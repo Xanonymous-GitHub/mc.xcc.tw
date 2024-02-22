@@ -33,5 +33,7 @@
 # https://www.planetminecraft.com/data-pack/treecapitator-datapack-1-13/
 
 # Neva-Miss Arrows
+# NOTE: Need manually unzip the downloaded file and then zip the unzipped two folders to zip again then.
+# Their names: `Neva-Miss Arrows.zip` and `ZRoot Datapack.zip`
 # https://www.planetminecraft.com/data-pack/neva-miss-arrows-datapack/
 
