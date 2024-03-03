@@ -1,7 +1,7 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.20.4
-https://cdn.modrinth.com/data/P7dR8mSH/versions/Ca6gRk94/fabric-api-0.96.3%2B1.20.4.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/9p2sguD7/fabric-api-0.96.4%2B1.20.4.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.20.4
 https://cdn.modrinth.com/data/Ha28R6CL/versions/vlhvI5Li/fabric-language-kotlin-1.10.18%2Bkotlin.1.9.22.jar
