@@ -1,7 +1,7 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.20.4
-https://cdn.modrinth.com/data/P7dR8mSH/versions/9p2sguD7/fabric-api-0.96.4%2B1.20.4.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/htRy7kbI/fabric-api-0.96.11%2B1.20.4.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.20.4
 https://cdn.modrinth.com/data/Ha28R6CL/versions/ZMokinzs/fabric-language-kotlin-1.10.19%2Bkotlin.1.9.23.jar
@@ -66,6 +66,12 @@ https://cdn.modrinth.com/data/5IovSY3u/versions/8WknFRQe/raknetify-fabric-0.1.0%
 
 # https://modrinth.com/mod/servercore/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/4WWQxlQP/versions/H1fXXdNC/servercore-fabric-1.4.0%2B1.20.3.jar
+
+# https://modrinth.com/mod/debugify/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/QwxR6Gcd/versions/gGTvKKDk/Debugify-1.20.4%2B1.0.jar
+
+# https://modrinth.com/mod/threadtweak/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/vSEH1ERy/versions/pc1QuN32/threadtweak-fabric-1.20.4-0.1.2.jar
 
 # Required mods
 
@@ -133,3 +139,54 @@ https://cdn.modrinth.com/data/Y25EUH1s/versions/M9stXpnz/blossom-tpa-2.2.2%2B1.2
 
 # https://www.curseforge.com/minecraft/mc-mods/buildpaste-for-fabric/files?page=1&pageSize=20&gameVersionTypeId=4 1.20.1
 https://mediafilez.forgecdn.net/files/4795/378/BuildPasteFabric-1.20.1v1.5.1.jar
+
+# https://modrinth.com/mod/jei/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/u6dRKJwZ/versions/HPR5ThoH/jei-1.20.4-fabric-17.3.0.49.jar
+
+# https://modrinth.com/mod/mouse-tweaks/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/aC3cM3Vq/versions/m0Dd8Cjy/MouseTweaks-fabric-mc1.20-2.25.jar
+
+# https://modrinth.com/mod/journeymap/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/lfHFW1mp/versions/YzYzLujr/journeymap-1.20.4-5.9.24-fabric.jar
+
+# https://modrinth.com/mod/appleskin/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/EsAfCjCV/versions/pmFyu3Sz/appleskin-fabric-mc1.20.3-2.5.1.jar
+
+# https://modrinth.com/mod/extended-drawers/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/AhtxbnpG/versions/vB7eQ3oD/ExtendedDrawers-2.1.1%2Bmc.1.20.4.jar
+
+# https://modrinth.com/mod/bodies-bodies/versions 1.20.1
+https://cdn.modrinth.com/data/t3rZrJqo/versions/5HUrkJxh/BodiesBodies-1.0.1.jar
+
+# https://modrinth.com/mod/modmenu/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/mOgUt4GM/versions/sjtVVlsA/modmenu-9.0.0.jar
+
+# https://modrinth.com/mod/jade/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/nvQzSEkH/versions/fNHCa6bl/Jade-1.20.4-fabric-13.3.1.jar
+
+# https://modrinth.com/mod/easy-elytra-takeoff/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/3hqwGCUB/versions/W7SW9TPy/easyelytratakeoff-1.20.4-4.2.jar
+
+# https://modrinth.com/datapack/hero-proof/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/GDmztpJg/versions/CEKPFRP2/hero-proof-5.1.1.jar
+
+# https://modrinth.com/mod/elytra-trims/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/XpzGz7KD/versions/NMLPFJLt/elytratrims-fabric-2.0.4%2B1.20.4.jar
+
+# https://modrinth.com/datapack/mob-captains/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/7tKn1fLd/versions/65K7sgmM/MobCaptains-v3.2.1.jar
+
+# https://modrinth.com/datapack/keep-some-inventory/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/VHSdL301/versions/Lf0FctN4/KeepSomeInventory-v1.3.3.jar
+
+# https://modrinth.com/datapack/spellbound-weapons/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/egyqODDj/versions/xqJIh00D/spellbound-weapons-v4.0.5L.jar
+
+# https://modrinth.com/mod/just-mob-heads/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/jzTUm9hE/versions/6fBGdfKP/justmobheads-1.20.4-7.6.jar
+
+# https://modrinth.com/datapack/tool-trims/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/uXeEiQk1/versions/fHTTYQaJ/tool-trims-mod-v2-0-2e-1-20.jar
+
+# https://modrinth.com/datapack/realistic-item-drops/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/CZP8YYTl/versions/C7Z9Up73/realistic-item-drops-3.1.jar
