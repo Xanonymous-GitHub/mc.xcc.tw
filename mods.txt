@@ -156,7 +156,7 @@ https://cdn.modrinth.com/data/lfHFW1mp/versions/YzYzLujr/journeymap-1.20.4-5.9.2
 https://cdn.modrinth.com/data/EsAfCjCV/versions/pmFyu3Sz/appleskin-fabric-mc1.20.3-2.5.1.jar
 
 # https://modrinth.com/mod/extended-drawers/versions?l=fabric 1.20.4
-https://cdn.modrinth.com/data/AhtxbnpG/versions/vB7eQ3oD/ExtendedDrawers-2.1.1%2Bmc.1.20.4.jar
+# https://cdn.modrinth.com/data/AhtxbnpG/versions/vB7eQ3oD/ExtendedDrawers-2.1.1%2Bmc.1.20.4.jar
 
 # https://modrinth.com/mod/bodies-bodies/versions 1.20.1
 # https://cdn.modrinth.com/data/t3rZrJqo/versions/5HUrkJxh/BodiesBodies-1.0.1.jar
