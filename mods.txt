@@ -108,6 +108,9 @@ https://cdn.modrinth.com/data/e0M1UDsY/versions/n9TNesVV/collective-1.20.4-7.40.
 # https://modrinth.com/mod/yacl/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/1eAoo2KR/versions/StXMrAsz/yet-another-config-lib-fabric-3.3.2%2B1.20.4.jar
 
+# https://modrinth.com/mod/resourceful-lib/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/G1hIVOrD/versions/TiIWVg2u/resourcefullib-fabric-1.20.4-2.4.10.jar
+
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions?l=fabric 1.20.4
