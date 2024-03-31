@@ -73,6 +73,9 @@ https://cdn.modrinth.com/data/QwxR6Gcd/versions/gGTvKKDk/Debugify-1.20.4%2B1.0.j
 # https://modrinth.com/mod/threadtweak/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/vSEH1ERy/versions/pc1QuN32/threadtweak-fabric-1.20.4-0.1.2.jar
 
+# https://modrinth.com/mod/ksyxis/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/2ecVyZ49/versions/Y33CP7Sd/Ksyxis-1.2.2.jar
+
 # Required mods
 
 # https://github.com/TCPShield/RealIP/releases
@@ -116,8 +119,8 @@ https://cdn.modrinth.com/data/5y2R1ofr/versions/tmm08KfL/mine-treasure-1.3.3.jar
 # https://modrinth.com/datapack/spawn-animations/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/zrzYrlm0/versions/pQ0HEnlC/spawnanimations-v1.9.4-mc1.17x-1.20x-mod.jar
 
-# https://www.curseforge.com/minecraft/mc-mods/worldedit/files?gameVersionTypeId=4 1.20.4
-https://mediafilez.forgecdn.net/files/5168/651/worldedit-mod-7.3.0.jar
+# https://modrinth.com/plugin/worldedit/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/1u6JkXh5/versions/ZOhVauWn/worldedit-mod-7.3.0.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.20.4
 https://cdn.modrinth.com/data/3D8J5fZB/versions/afDFsXR8/shareenderchest-1.6.1.jar
@@ -181,3 +184,21 @@ https://cdn.modrinth.com/data/egyqODDj/versions/xqJIh00D/spellbound-weapons-v4.0
 
 # https://modrinth.com/mod/just-mob-heads/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/jzTUm9hE/versions/6fBGdfKP/justmobheads-1.20.4-7.6.jar
+
+# https://modrinth.com/mod/coord-finder/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/kPkTtp4N/versions/MpdHyavn/coordfinder-fabric-1.20.4-1.1.0.jar
+
+# https://modrinth.com/mod/axiom/versions 1.20.4
+https://cdn.modrinth.com/data/N6n5dqoA/versions/R8ZupM8Z/Axiom-2.7.0-for-MC1.20.4.jar
+
+# https://modrinth.com/mod/cadmus/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/fEWKxVzh/versions/EiatAg7l/cadmus-fabric-1.20.4-1.2.2.jar
+
+# https://modrinth.com/mod/stackdeobf/versions 1.20.4
+https://cdn.modrinth.com/data/NusMqsjF/versions/t0r3JIMK/StackDeobfuscatorFabric-1.4.2%2Bbf1fc22.jar
+
+# https://modrinth.com/mod/styled-chat/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/doqSKB0e/versions/hPPTz9OM/styled-chat-2.4.0%2B1.20.3.jar
+
+# https://modrinth.com/mod/first-join-message/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/Ppny3rjF/versions/Jsf1Lu8K/firstjoinmessage-1.20.4-3.5.jar
