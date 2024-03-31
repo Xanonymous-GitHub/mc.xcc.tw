@@ -205,3 +205,6 @@ https://cdn.modrinth.com/data/doqSKB0e/versions/hPPTz9OM/styled-chat-2.4.0%2B1.2
 
 # https://modrinth.com/mod/first-join-message/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/Ppny3rjF/versions/Jsf1Lu8K/firstjoinmessage-1.20.4-3.5.jar
+
+# https://modrinth.com/mod/styledplayerlist/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/DQIfKUHf/versions/jcLxMRaH/styledplayerlist-3.3.0%2B1.20.3.jar
