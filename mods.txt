@@ -209,5 +209,5 @@ https://cdn.modrinth.com/data/Ppny3rjF/versions/Jsf1Lu8K/firstjoinmessage-1.20.4
 # https://modrinth.com/mod/styledplayerlist/versions?l=fabric 1.20.4
 https://cdn.modrinth.com/data/DQIfKUHf/versions/jcLxMRaH/styledplayerlist-3.3.0%2B1.20.3.jar
 
-# https://modrinth.com/mod/chatutils/versions?l=fabric 1.20.4
-https://cdn.modrinth.com/data/CV78DFSF/versions/L18A7IUQ/chat-utils-1.10.3%2B1.20.4.jar
+https://modrinth.com/mod/chatshot/versions?l=fabric 1.20.4
+https://cdn.modrinth.com/data/X2Zy7Oi6/versions/Bg4KTdgW/ChatShot%20%281.20.x-fabric%29-1.0.0.jar
