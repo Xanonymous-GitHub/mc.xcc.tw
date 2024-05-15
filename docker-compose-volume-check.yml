@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mc:
-    image: ubuntu:devel
+    image: ubuntu:rolling
     command: tail -f /dev/null
     volumes:
       - "mc:/data"
