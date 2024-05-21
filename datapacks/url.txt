@@ -15,6 +15,7 @@
 
 # Heaven Dimension
 # https://www.planetminecraft.com/data-pack/heaven-dimension-4787648/
+# (alt ->) https://www.9minecraft.net/heaven-dimension-data-pack/
 
 # StarDust series
 # https://www.stardustlabs.net/datapacks
