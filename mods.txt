@@ -135,7 +135,7 @@ https://cdn.modrinth.com/data/Vebnzrzj/versions/BrZOYzp6/LuckPerms-Fabric-5.4.12
 https://cdn.modrinth.com/data/Y25EUH1s/versions/qBHnVUSg/blossom-tpa-2.2.3%2B1.20.6.jar
 
 # https://modrinth.com/mod/jei/versions?l=fabric 1.20.4
-https://cdn.modrinth.com/data/u6dRKJwZ/versions/xGApC30U/jei-1.20.4-fabric-17.3.0.52.jar
+# https://cdn.modrinth.com/data/u6dRKJwZ/versions/xGApC30U/jei-1.20.4-fabric-17.3.0.52.jar
 
 # https://modrinth.com/mod/journeymap/versions?l=fabric 1.20.6
 https://cdn.modrinth.com/data/lfHFW1mp/versions/pGndT2Bq/journeymap-1.20.6-5.9.31-fabric.jar
