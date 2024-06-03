@@ -17,6 +17,8 @@ services:
       - "./datapacks.txt:/extras/datapacks.txt"
       # Folder containing datapacks that will be loaded into the server
       - "./datapacks/:/datapacks/"
+      # Mounts the tunnel folder so that it can be accessed from the host
+      - "~/tunnel:/outside"
     # Expose ports to the host machine
     ports:
       - "25565:25565" # Default Minecraft port
