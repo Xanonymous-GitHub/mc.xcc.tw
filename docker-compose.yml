@@ -24,7 +24,7 @@ services:
       - "25565:25565" # Default Minecraft port
     pull_policy: "always" # Always pull the latest image
     environment:
-      VERSION: "1.20.6" # Minecraft version
+      VERSION: "1.21" # Minecraft version
       EULA: "TRUE" # You need to agree to the EULA to run the server
       TYPE: "FABRIC" # Server type
       MODE: "survival" # Game mode
