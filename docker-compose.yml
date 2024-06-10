@@ -155,7 +155,7 @@ services:
   backups:
     image: itzg/mc-backup
     environment:
-      BACKUP_INTERVAL: "36h"
+      BACKUP_INTERVAL: "18h"
       # instead of network_mode below, could declare RCON_HOST
       RCON_HOST: mc
       # POST_BACKUP_SCRIPT_FILE: /post-backup.sh
@@ -170,7 +170,7 @@ services:
       # Skip backup if no players are online
       PAUSE_IF_NO_PLAYERS: "false"
       # The number of days to keep backups for
-      PRUNE_BACKUPS_DAYS: "4"
+      PRUNE_BACKUPS_DAYS: "5"
     secrets:
       - mc-backup-origin-with-key
     volumes:
