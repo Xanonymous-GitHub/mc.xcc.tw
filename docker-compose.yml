@@ -33,7 +33,7 @@ services:
       SPAWN_PROTECTION: 0 # The radius of the spawn protection
       ENABLE_COMMAND_BLOCK: "true" # Enable the usage of command blocks
       OVERRIDE_SERVER_PROPERTIES: "true" # Overrides the server properties file on start up
-      ICON: "https://i.imgur.com/wnrEgP7.png" # Server icon
+      ICON: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21/mars.png" # Server icon
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
