@@ -6,7 +6,16 @@ function copy_backup() {
     local USERNAME=""
     local REMOTE_BACKUP_FOLDER=""
     local DEST_DIR=$(dirname $0)
-    local FILE_PATH=$(ssh -p $PORT $USERNAME@$REMOTE_SERVER "ls -t $REMOTE_BACKUP_FOLDER | head -n1")
+    
+    # Fetch the latest file containing "backup" in its name
+    local FILE_PATH=$(ssh -p $PORT $USERNAME@$REMOTE_SERVER "ls -t $REMOTE_BACKUP_FOLDER | grep backup | head -n1")
+    
+    # Check if a file was found
+    if [ -z "$FILE_PATH" ]; then
+        echo "No backup file found in $REMOTE_BACKUP_FOLDER on $REMOTE_SERVER"
+        return 1
+    fi
+    
     echo "Copying $FILE_PATH from $REMOTE_SERVER:$REMOTE_BACKUP_FOLDER to $DEST_DIR"
     rsync -avz -e "ssh -p $PORT" "$USERNAME@$REMOTE_SERVER:$REMOTE_BACKUP_FOLDER/$FILE_PATH" "$DEST_DIR"
 }
