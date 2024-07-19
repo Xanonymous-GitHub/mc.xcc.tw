@@ -8,7 +8,7 @@ function copy_backup() {
     local DEST_DIR=$(dirname $0)
     
     # Fetch the latest file containing "backup" in its name
-    local FILE_PATH=$(ssh -p $PORT $USERNAME@$REMOTE_SERVER "ls -t $REMOTE_BACKUP_FOLDER | grep backup | head -n1")
+    local FILE_PATH=$(ssh -p $PORT $USERNAME@$REMOTE_SERVER "ls -t $REMOTE_BACKUP_FOLDER | grep world | head -n1")
     
     # Check if a file was found
     if [ -z "$FILE_PATH" ]; then
