@@ -11,15 +11,16 @@
 # https://www.planetminecraft.com/data-pack/1-13-instant-high-speed-railway-builder-tool-datapack/
 
 # Gorify
-# https://www.planetminecraft.com/data-pack/goremod-blood-for-every-one/
+# https://modrinth.com/datapack/gorify/versions
 
-# Heaven Dimension
+# Heaven Dimension (wait 1.21.x release)
 # https://www.planetminecraft.com/data-pack/heaven-dimension-4787648/
 # (alt ->) https://www.9minecraft.net/heaven-dimension-data-pack/
+# https://modrinth.com/datapack/heaven-dimension/versions
 
 # StarDust series
 # https://www.stardustlabs.net/datapacks
-# Incendium
+# Incendium (wait 1.21.x release)
 # Structory
 # Terralith
 # Nullspace
