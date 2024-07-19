@@ -99,6 +99,9 @@ https://cdn.modrinth.com/data/1eAoo2KR/versions/Y8Wa10Re/YetAnotherConfigLib-3.5
 # https://modrinth.com/mod/resourceful-lib/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/G1hIVOrD/versions/agK8ADLZ/resourcefullib-fabric-1.21-3.0.9.jar
 
+# https://www.curseforge.com/minecraft/mc-mods/cupboard/files/all?page=1&pageSize=20&gameVersionTypeId=4 1.21
+https://mediafilez.forgecdn.net/files/5477/517/cupboardfabric-1.21-2.7.jar
+
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions?l=fabric 1.21
@@ -184,3 +187,6 @@ https://cdn.modrinth.com/data/DQIfKUHf/versions/Ui7MOgqG/styledplayerlist-3.5.1%
 
 # https://modrinth.com/mod/cadmus/versions?l=fabric 1.20.4
 # https://cdn.modrinth.com/data/fEWKxVzh/versions/EiatAg7l/cadmus-fabric-1.20.4-1.2.2.jar
+
+# https://modrinth.com/mod/appleskin/versions?l=fabric 1.21
+https://cdn.modrinth.com/data/EsAfCjCV/versions/YxFxnyd4/appleskin-fabric-mc1.21-3.0.2.jar
