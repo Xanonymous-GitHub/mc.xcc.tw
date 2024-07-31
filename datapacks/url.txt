@@ -19,11 +19,14 @@
 # https://modrinth.com/datapack/heaven-dimension/versions
 
 # StarDust series
-# https://www.stardustlabs.net/datapacks
-# Incendium (wait 1.21.x release)
+# https://www.stardustlabs.net/version-library
+# Incendium
 # Structory
 # Terralith
 # Nullspace
+# AMP.NETHER
+# CONTINENTS
+# STRUCTORY:TOWERS
 
 # PK waystone
 # https://modrinth.com/datapack/waystones-data-pack/versions
