@@ -3,8 +3,6 @@ version: "3"
 services:
   mc:
     image: itzg/minecraft-server:java21-graalvm
-    security_opt:
-      - apparmor=minecraft-armor
     # Volumes map paths on the host to paths in the container
     volumes:
       # Stores Minecraft data, making it persistent and re-usable among other containers
@@ -174,6 +172,8 @@ services:
       PAUSE_IF_NO_PLAYERS: "false"
       # The number of days to keep backups for
       PRUNE_BACKUPS_DAYS: "5"
+      # The compression method to use for backups
+      TAR_COMPRESS_METHOD: "bzip2"
     secrets:
       - mc-backup-origin-with-key
     volumes:
