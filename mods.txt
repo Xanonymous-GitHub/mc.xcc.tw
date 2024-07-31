@@ -1,7 +1,7 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.21
-https://cdn.modrinth.com/data/P7dR8mSH/versions/vMQdA5QJ/fabric-api-0.100.7%2B1.21.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/iS2jNAxk/fabric-api-0.100.8%2B1.21.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.21
 https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar
@@ -64,11 +64,14 @@ https://cdn.modrinth.com/data/4WWQxlQP/versions/pdvZYDOA/servercore-fabric-1.5.4
 # https://modrinth.com/mod/debugify/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/QwxR6Gcd/versions/mOk69fib/Debugify-1.21%2B1.0.jar
 
-# https://modrinth.com/mod/threadtweak/versions?l=fabric 1.20.6
-# https://cdn.modrinth.com/data/vSEH1ERy/versions/BtMMYDAh/threadtweak-fabric-1.20.6-0.1.3.jar
+# https://modrinth.com/mod/threadtweak/versions?l=fabric 1.21
+https://cdn.modrinth.com/data/vSEH1ERy/versions/INOJp2Dt/threadtweak-fabric-0.1.4%2Bmc1.21.jar
 
 # https://modrinth.com/mod/ksyxis/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/2ecVyZ49/versions/QFfBwOwT/Ksyxis-1.3.2.jar
+
+# https://modrinth.com/mod/noisium/versions?l=fabric 1.21
+https://cdn.modrinth.com/data/KuNKN7d2/versions/W8V2bkLB/noisium-fabric-2.2.1%2Bmc1.21.jar
 
 # Required mods
 
@@ -105,28 +108,22 @@ https://mediafilez.forgecdn.net/files/5477/517/cupboardfabric-1.21-2.7.jar
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/gWO6Zqey/versions/dcEnQikD/vanillarefresh-v1.4.21_1.21.jar
+https://cdn.modrinth.com/data/gWO6Zqey/versions/bCNG0fAq/vanilla-refresh-1.4.23b_1.21.jar
 
 # https://modrinth.com/datapack/mine-treasure/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/5y2R1ofr/versions/Zzdedn6R/mine-treasure-1.4.4.jar
+https://cdn.modrinth.com/data/5y2R1ofr/versions/z70McCt9/mine-treasure-1.4.5.jar
 
 # https://modrinth.com/datapack/spawn-animations/versions?l=fabric 1.20.4
 # https://cdn.modrinth.com/data/zrzYrlm0/versions/pQ0HEnlC/spawnanimations-v1.9.4-mc1.17x-1.20x-mod.jar
 
 # https://modrinth.com/plugin/worldedit/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/1u6JkXh5/versions/EjobaxpK/worldedit-mod-7.3.4.jar
+https://cdn.modrinth.com/data/1u6JkXh5/versions/srWerknn/worldedit-mod-7.3.5.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.21
 https://cdn.modrinth.com/data/3D8J5fZB/versions/X5mcXkS3/shareenderchest-1.6.3.jar
 
 # https://github.com/NimajnebEC/auto-elytra/releases/ 1.20.4
 # https://github.com/NimajnebEC/auto-elytra/releases/download/v2.1.3/auto-elytra-2.1.3.jar
-
-# https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-fabric/files?gameVersionTypeId=4 1.20.1
-# https://mediafilez.forgecdn.net/files/4601/240/awesomedungeon-fabric-1.20.1-3.2.0.jar
-
-# https://www.curseforge.com/minecraft/mc-mods/better-village-fabric/files?gameVersionTypeId=4 1.20.1
-# https://mediafilez.forgecdn.net/files/4703/610/bettervillage-fabric-1.20.1-3.2.0.jar
 
 # https://modrinth.com/mod/luckperms/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/Vebnzrzj/versions/2RuZIzOq/LuckPerms-Fabric-5.4.133.jar
@@ -155,8 +152,8 @@ https://cdn.modrinth.com/data/XpzGz7KD/versions/5FRneJuO/elytratrims-fabric-3.4.
 # https://modrinth.com/datapack/mob-captains/versions?l=fabric 1.20.6
 # https://cdn.modrinth.com/data/7tKn1fLd/versions/hNzi5aFk/MobCaptains-mod-v3.3.0.jar
 
-# https://modrinth.com/datapack/keep-some-inventory/versions?l=fabric 1.20.6
-# https://cdn.modrinth.com/data/VHSdL301/versions/SpWsU31f/KeepSomeInventory-mod-v1.4.2.jar
+# https://modrinth.com/datapack/keep-some-inventory/versions?l=fabric 1.21
+https://cdn.modrinth.com/data/VHSdL301/versions/FSClpWLg/keep-some-inventory-v2.0.0.jar
 
 # https://modrinth.com/datapack/spellbound-weapons/versions?l=fabric 1.20.4
 # https://cdn.modrinth.com/data/egyqODDj/versions/nxtkgmc5/spellbound-weapons-v4.0.5m.jar
