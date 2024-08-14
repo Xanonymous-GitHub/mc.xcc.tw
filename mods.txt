@@ -1,7 +1,7 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.21.1
-https://cdn.modrinth.com/data/P7dR8mSH/versions/VAjB0MYF/fabric-api-0.102.0%2B1.21.1.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/bK6OgzFj/fabric-api-0.102.1%2B1.21.1.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.21.1
 https://cdn.modrinth.com/data/Ha28R6CL/versions/kdDGGNEt/fabric-language-kotlin-1.12.0%2Bkotlin.2.0.10.jar
@@ -10,10 +10,10 @@ https://cdn.modrinth.com/data/Ha28R6CL/versions/kdDGGNEt/fabric-language-kotlin-
 # The mods used in the server, aims for performance and stability.
 # ref: https://gist.github.com/Obydux/55b967f5dcc00633fe895e5a473363d5
 
-# https://modrinth.com/mod/lithium/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/my7uONjU/lithium-fabric-mc1.21-0.12.7.jar
+# https://modrinth.com/mod/lithium/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/5szYtenV/lithium-fabric-mc1.21.1-0.13.0.jar
 
-# https://modrinth.com/mod/vmp-fabric/versions 1.21
+# https://modrinth.com/mod/vmp-fabric/versions 1.21.1
 https://cdn.modrinth.com/data/wnEe9KBa/versions/PT5DZrQC/vmp-fabric-mc1.21-0.2.0%2Bbeta.7.163-all.jar
 
 # https://modrinth.com/mod/ferrite-core/versions?l=fabric 1.21
@@ -28,20 +28,20 @@ https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar
 # https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save/files?page=1&gameVersionTypeId=4 1.21
 https://mediafilez.forgecdn.net/files/5508/955/smoothchunk-fabric-1.21-3.6.jar
 
-# https://github.com/gnembon/fabric-carpet/releases 1.21
+# https://github.com/gnembon/fabric-carpet/releases 1.21.1
 https://github.com/gnembon/fabric-carpet/releases/download/1.4.147/fabric-carpet-1.21-1.4.147+v240613.jar
 
 # https://github.com/gnembon/carpet-extra/releases 1.21
 https://github.com/gnembon/carpet-extra/releases/download/1.4.147/carpet-extra-1.21-1.4.147.jar
 
 # https://modrinth.com/mod/c2me-fabric/versions 1.21.1
-https://cdn.modrinth.com/data/VSNURh3q/versions/FzZ4Wxhj/c2me-fabric-mc1.21.1-0.3.0%2Balpha.0.135.jar
+https://cdn.modrinth.com/data/VSNURh3q/versions/eth8wAqz/c2me-fabric-mc1.21.1-0.3.0%2Balpha.0.142.jar
 
 # https://modrinth.com/plugin/chunky/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/fALzjamp/versions/dPliWter/Chunky-1.4.16.jar
 
-# https://modrinth.com/mod/spark/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/l6YH9Als/versions/KYGTUMOq/spark-1.10.73-fabric.jar
+# https://modrinth.com/mod/spark/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/l6YH9Als/versions/qTSaozEL/spark-1.10.97-fabric.jar
 
 # https://modrinth.com/mod/timeoutout/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/7cFX55fD/versions/VAYNN78f/timeoutout-1.0.4%2B1.20.2.jar
@@ -52,13 +52,13 @@ https://cdn.modrinth.com/data/nxrXbh5K/versions/MYTZEnn2/viewdistancefix-fabric-
 # https://modrinth.com/mod/libre-exp-fix/versions?l=fabric 1.20.6
 # https://cdn.modrinth.com/data/qOQALrK4/versions/UdIr4cyO/libreexpfix-0.2.7%2B1.20.5b14-BETA-fabric.jar
 
-# https://modrinth.com/mod/badpackets/versions?l=fabric 1.21
+# https://modrinth.com/mod/badpackets/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/ftdbN0KK/versions/ac4a1Xj7/badpackets-fabric-0.8.1.jar
 
 # https://modrinth.com/plugin/raknetify/versions?l=fabric 1.21
 https://cdn.modrinth.com/data/5IovSY3u/versions/gchRoKmg/raknetify-fabric-0.1.0%2Balpha.5.128-all.jar
 
-# https://modrinth.com/mod/servercore/versions?l=fabric 1.21
+# https://modrinth.com/mod/servercore/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/4WWQxlQP/versions/pdvZYDOA/servercore-fabric-1.5.4%2B1.21.jar
 
 # https://modrinth.com/mod/debugify/versions?l=fabric 1.21
@@ -87,7 +87,7 @@ https://cdn.modrinth.com/data/Xw7lTsbM/versions/8iU3tQhG/blossom-lib-2.5.8%2B1.2
 # https://modrinth.com/mod/modernfix/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/nmDcB62a/versions/KCOwQkKi/modernfix-fabric-5.19.0%2Bmc1.21.jar
 
-# https://modrinth.com/mod/recipecooldown/versions?l=fabric 1.21
+# https://modrinth.com/mod/recipecooldown/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/7LEWYKTV/versions/oe5KEgWu/RecipeCooldown-1.0.0.jar
 
 # https://modrinth.com/mod/async-locator/versions?l=fabric 1.20.2
@@ -116,8 +116,8 @@ https://cdn.modrinth.com/data/5y2R1ofr/versions/Slcj3YlH/mine-treasure-1.4.6.jar
 # https://modrinth.com/datapack/spawn-animations/versions?l=fabric 1.20.4
 # https://cdn.modrinth.com/data/zrzYrlm0/versions/pQ0HEnlC/spawnanimations-v1.9.4-mc1.17x-1.20x-mod.jar
 
-# https://modrinth.com/plugin/worldedit/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/1u6JkXh5/versions/srWerknn/worldedit-mod-7.3.5.jar
+# https://modrinth.com/plugin/worldedit/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/1u6JkXh5/versions/vBzkrSYP/worldedit-mod-7.3.6.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.21
 https://cdn.modrinth.com/data/3D8J5fZB/versions/X5mcXkS3/shareenderchest-1.6.3.jar
@@ -125,8 +125,8 @@ https://cdn.modrinth.com/data/3D8J5fZB/versions/X5mcXkS3/shareenderchest-1.6.3.j
 # https://github.com/NimajnebEC/auto-elytra/releases/ 1.20.4
 # https://github.com/NimajnebEC/auto-elytra/releases/download/v2.1.3/auto-elytra-2.1.3.jar
 
-# https://modrinth.com/mod/luckperms/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/Vebnzrzj/versions/2RuZIzOq/LuckPerms-Fabric-5.4.133.jar
+# https://modrinth.com/mod/luckperms/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/Vebnzrzj/versions/oLykW1F8/LuckPerms-Fabric-5.4.139.jar
 
 # https://modrinth.com/mod/ledger/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/LVN9ygNV/versions/mb29Srom/ledger-1.3.4.jar
@@ -134,11 +134,11 @@ https://cdn.modrinth.com/data/LVN9ygNV/versions/mb29Srom/ledger-1.3.4.jar
 # https://modrinth.com/mod/blossomtpa/versions?l=fabric&c=release 1.21
 https://cdn.modrinth.com/data/Y25EUH1s/versions/tCamZywU/blossom-tpa-2.2.4%2B1.21.jar
 
-# https://modrinth.com/mod/jei/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/u6dRKJwZ/versions/KcbXAJxI/jei-1.21-fabric-19.8.2.99.jar
+# https://modrinth.com/mod/jei/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/u6dRKJwZ/versions/W0SHO1U5/jei-1.21.1-fabric-19.8.4.115.jar
 
-# https://modrinth.com/mod/journeymap/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/lfHFW1mp/versions/YTHpmWl7/journeymap-fabric-1.21-6.0.0-beta.18.jar
+# https://modrinth.com/mod/journeymap/versions?l=fabric 1.21.1
+https://cdn.modrinth.com/data/lfHFW1mp/versions/7vcXYdsz/journeymap-fabric-1.21-6.0.0-beta.20.jar
 
 # https://modrinth.com/mod/easy-elytra-takeoff/versions?l=fabric 1.21.1
 https://cdn.modrinth.com/data/3hqwGCUB/versions/A5ElRaly/easyelytratakeoff-1.21.1-4.4.jar
@@ -147,7 +147,7 @@ https://cdn.modrinth.com/data/3hqwGCUB/versions/A5ElRaly/easyelytratakeoff-1.21.
 # https://cdn.modrinth.com/data/GDmztpJg/versions/CEKPFRP2/hero-proof-5.1.1.jar
 
 # https://modrinth.com/mod/elytra-trims/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/XpzGz7KD/versions/5FRneJuO/elytratrims-fabric-3.4.3%2B1.21.jar
+https://cdn.modrinth.com/data/XpzGz7KD/versions/3VbHNFIN/elytratrims-fabric-3.4.4%2B1.21.jar
 
 # https://modrinth.com/datapack/mob-captains/versions?l=fabric 1.20.6
 # https://cdn.modrinth.com/data/7tKn1fLd/versions/hNzi5aFk/MobCaptains-mod-v3.3.0.jar
