@@ -150,7 +150,7 @@ https://cdn.modrinth.com/data/XpzGz7KD/versions/DfoGIeFt/elytratrims-fabric-3.5.
 # https://cdn.modrinth.com/data/7tKn1fLd/versions/hNzi5aFk/MobCaptains-mod-v3.3.0.jar
 
 # https://modrinth.com/datapack/keep-some-inventory/versions?l=fabric 1.21
-https://cdn.modrinth.com/data/VHSdL301/versions/Kr9Auku0/keep-some-inventory-v2.0.1.jar
+# https://cdn.modrinth.com/data/VHSdL301/versions/Kr9Auku0/keep-some-inventory-v2.0.1.jar
 
 # https://modrinth.com/datapack/spellbound-weapons/versions?l=fabric 1.21.x
 https://cdn.modrinth.com/data/egyqODDj/versions/A6hR4XOD/spellbound-weapons-v4.1.0c.jar
