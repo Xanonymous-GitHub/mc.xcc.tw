@@ -31,9 +31,6 @@
 # PK waystone
 # https://modrinth.com/datapack/waystones-data-pack/versions
 
-# Towns and towers
-# https://www.planetminecraft.com/data-pack/towns-amp-towers-structure-overhaul/
-
 # Treecapitator
 # https://www.planetminecraft.com/data-pack/treecapitator-datapack-1-13/
 

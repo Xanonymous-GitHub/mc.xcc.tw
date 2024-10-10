@@ -153,7 +153,7 @@ https://cdn.modrinth.com/data/XpzGz7KD/versions/DfoGIeFt/elytratrims-fabric-3.5.
 # https://cdn.modrinth.com/data/VHSdL301/versions/Kr9Auku0/keep-some-inventory-v2.0.1.jar
 
 # https://modrinth.com/datapack/spellbound-weapons/versions?l=fabric 1.21.x
-https://cdn.modrinth.com/data/egyqODDj/versions/A6hR4XOD/spellbound-weapons-v4.1.0c.jar
+# https://cdn.modrinth.com/data/egyqODDj/versions/A6hR4XOD/spellbound-weapons-v4.1.0c.jar
 
 # https://modrinth.com/mod/just-mob-heads/versions?l=fabric 1.21.x
 https://cdn.modrinth.com/data/jzTUm9hE/versions/4A7YxYSz/justmobheads-1.21.1-8.3.jar
