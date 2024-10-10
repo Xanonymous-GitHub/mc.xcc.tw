@@ -20,7 +20,7 @@ https://cdn.modrinth.com/data/wnEe9KBa/versions/VuFHjBNh/vmp-fabric-mc1.21.1-0.2
 https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar
 
 # https://modrinth.com/mod/krypton/versions 1.21.x
-https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar
+# https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar
 
 # https://modrinth.com/mod/memoryleakfix/versions?l=fabric 1.20.4
 # https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar
@@ -68,7 +68,7 @@ https://cdn.modrinth.com/data/QwxR6Gcd/versions/dO7QNiof/Debugify-1.21.1%2B1.0.j
 https://cdn.modrinth.com/data/vSEH1ERy/versions/F4sjmsi3/threadtweak-fabric-0.1.5%2Bmc1.21.1.jar
 
 # https://modrinth.com/mod/ksyxis/versions?l=fabric 1.21.x
-https://cdn.modrinth.com/data/2ecVyZ49/versions/QFfBwOwT/Ksyxis-1.3.2.jar
+# https://cdn.modrinth.com/data/2ecVyZ49/versions/QFfBwOwT/Ksyxis-1.3.2.jar
 
 # https://modrinth.com/mod/noisium/versions?l=fabric 1.21.x
 https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar
