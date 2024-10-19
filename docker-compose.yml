@@ -46,7 +46,7 @@ services:
       RESOURCE_PACK_ENFORCE: "true"
       RESOURCE_PACK_SHA1: "b11f58ae53e02f5fd6d3bec7cf72f1bbee07db8f"
       JVM_OPTS: >
-        -Xms12G -Xmx24G
+        -Xms6G -Xmx8G
         -XX:+UnlockExperimentalVMOptions 
         -XX:+UnlockDiagnosticVMOptions 
         -Dterminal.jline=false 
