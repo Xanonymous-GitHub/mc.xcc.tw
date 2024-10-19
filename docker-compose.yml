@@ -172,8 +172,8 @@ services:
       PRUNE_BACKUPS_DAYS: "5"
       # The compression method to use for backups
       # TAR_COMPRESS_METHOD: "bzip2"
-    secrets:
-      - mc-backup-origin-with-key
+    # secrets:
+    #   - mc-backup-origin-with-key
     volumes:
       # mount the same volume used by server, but read-only
       - mc:/data:ro
