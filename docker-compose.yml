@@ -194,6 +194,6 @@ services:
 volumes:
   mc: { }
 
-secrets:
-  mc-backup-origin-with-key:
-    file: ./backup-origin.txt
+#secrets:
+#  mc-backup-origin-with-key:
+#    file: ./backup-origin.txt
