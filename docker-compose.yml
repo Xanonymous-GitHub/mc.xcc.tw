@@ -39,12 +39,12 @@ services:
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
       VIEW_DISTANCE: 6 # View distance from the player
       SYNC_CHUNK_WRITES: "false" # Control over the rate chunks are saved
-      ALLOW_FLIGHT: "true" # Allow users to use flight on the server
+      ALLOW_FLIGHT: "true" # Allow users t≈o use flight on the server
       MAX_BUILD_HEIGHT: 359 # Maximum height in which building is allowed
       # JVM options for better performance and compatibility
-      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.1/wyvernity-datapack-resources-v4-3_mc-1-21-1.zip"
+      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.4/wyvernity-datapack-resources-v4-5_mc-1-21-4.zip"
       RESOURCE_PACK_ENFORCE: "true"
-      RESOURCE_PACK_SHA1: "b11f58ae53e02f5fd6d3bec7cf72f1bbee07db8f"
+      RESOURCE_PACK_SHA1: "d5dad7b76176e42c69d5e21e90708154daa37dc7"
       JVM_OPTS: >
         -Xms6G -Xmx6G
         -XX:+UnlockExperimentalVMOptions 
