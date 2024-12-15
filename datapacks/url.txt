@@ -4,7 +4,7 @@
 # BACAP Language Pack
 # https://www.planetminecraft.com/texture-pack/bacap-language-pack/
 
-# Enchantment+
+# Enchantment+≈
 # https://www.planetminecraft.com/data-pack/enchantment-1-16/
 
 # FTMC
@@ -14,9 +14,7 @@
 # https://modrinth.com/datapack/gorify/versions
 
 # Heaven Dimension (wait 1.21.x release)
-# https://www.planetminecraft.com/data-pack/heaven-dimension-4787648/
-# (alt ->) https://www.9minecraft.net/heaven-dimension-data-pack/
-# https://modrinth.com/datapack/heaven-dimension/versions
+# https://modrinth.com/datapack/heaven-dimension-fabric/versions?l=datapack&l=fabric
 
 # StarDust series
 # https://www.stardustlabs.net/version-library
