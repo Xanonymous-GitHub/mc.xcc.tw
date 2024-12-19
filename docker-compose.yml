@@ -59,8 +59,8 @@ services:
         -XX:+UseNUMA 
         -XX:AllocatePrefetchStyle=3 
         -XX:NmethodSweepActivity=1 
-        -XX:ReservedCodeCacheSize=400M 
-        -XX:NonNMethodCodeHeapSize=12M 
+        -XX:ReservedCodeCacheSize=1G 
+        -XX:NonNMethodCodeHeapSize=32M 
         -XX:ProfiledCodeHeapSize=194M 
         -XX:NonProfiledCodeHeapSize=194M 
         -XX:+PerfDisableSharedMem 
@@ -76,7 +76,7 @@ services:
         -XX:+AlwaysPreTouch 
         -XX:G1NewSizePercent=40 
         -XX:G1MaxNewSizePercent=50 
-        -XX:G1HeapRegionSize=16M 
+        -XX:G1HeapRegionSize=32M 
         -XX:G1ReservePercent=20 
         -XX:G1HeapWastePercent=5 
         -XX:G1MixedGCCountTarget=4 
@@ -115,7 +115,7 @@ services:
         -XX:+EnableJVMCI 
         -XX:+EnableJVMCIProduct 
         -XX:+UseJVMCICompiler 
-        -XX:ConcGCThreads=2 
+        -XX:ConcGCThreads=4 
         -XX:MaxNodeLimit=240000 
         -XX:NodeLimitFudgeFactor=8000 
         -XX:ParallelGCThreads=6 
