@@ -133,3 +133,6 @@ https://cdn.modrinth.com/data/DQIfKUHf/versions/gyvLcVPF/styledplayerlist-3.6.0%
 
 # https://modrinth.com/mod/appleskin/versions?l=fabric 1.21.4
 https://cdn.modrinth.com/data/EsAfCjCV/versions/cHQjeYVS/appleskin-fabric-mc1.21.3-3.0.6.jar
+
+# https://modrinth.com/mod/leukocyte/versions?l=fabric 1.21.4
+https://cdn.modrinth.com/data/hsRVgp6Q/versions/P0zmq8gA/leukocyte-0.3.11%2B1.21.4.jar
