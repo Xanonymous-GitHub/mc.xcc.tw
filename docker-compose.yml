@@ -60,9 +60,9 @@ services:
         -XX:AllocatePrefetchStyle=3 
         -XX:NmethodSweepActivity=1 
         -XX:ReservedCodeCacheSize=1G 
-        -XX:NonNMethodCodeHeapSize=32M 
-        -XX:ProfiledCodeHeapSize=194M 
-        -XX:NonProfiledCodeHeapSize=194M 
+        -XX:NonNMethodCodeHeapSize=512M 
+        -XX:ProfiledCodeHeapSize=256M 
+        -XX:NonProfiledCodeHeapSize=256M 
         -XX:+PerfDisableSharedMem 
         -XX:+UseFastUnorderedTimeStamps 
         -XX:+UseCriticalJavaThreadPriority 
