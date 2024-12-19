@@ -33,7 +33,7 @@ services:
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
-      MEMORY: "16G" # Amount of memory allocated for the server
+      MEMORY: "12G" # Amount of memory allocated for the server
       NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
       SIMULATION_DISTANCE: 3 # Server view distance in chunks
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
@@ -46,7 +46,9 @@ services:
       RESOURCE_PACK_ENFORCE: "true"
       RESOURCE_PACK_SHA1: "d5dad7b76176e42c69d5e21e90708154daa37dc7"
       JVM_OPTS: >
-        -Xms12G -Xmx16G
+        -Xms12G -Xmx12G
+        -XX:MaxDirectMemorySize=2G
+        -XX:MaxMetaspaceSize=1G
         -XX:+UnlockExperimentalVMOptions 
         -XX:+UnlockDiagnosticVMOptions 
         -Dterminal.jline=false 
@@ -74,8 +76,8 @@ services:
         -XX:MaxGCPauseMillis=200 
         -XX:+DisableExplicitGC 
         -XX:+AlwaysPreTouch 
-        -XX:G1NewSizePercent=40 
-        -XX:G1MaxNewSizePercent=50 
+        -XX:G1NewSizePercent=20 
+        -XX:G1MaxNewSizePercent=30 
         -XX:G1HeapRegionSize=32M 
         -XX:G1ReservePercent=20 
         -XX:G1HeapWastePercent=5 
@@ -83,7 +85,7 @@ services:
         -XX:InitiatingHeapOccupancyPercent=15 
         -XX:G1MixedGCLiveThresholdPercent=90 
         -XX:G1RSetUpdatingPauseTimePercent=5 
-        -XX:SurvivorRatio=32 
+        -XX:SurvivorRatio=16 
         -XX:MaxTenuringThreshold=1 
         -XX:+UseStringDeduplication 
         -XX:+UseFastUnorderedTimeStamps 
