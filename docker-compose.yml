@@ -34,7 +34,7 @@ services:
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
       MEMORY: "16G" # Amount of memory allocated for the server
-      NETWORK_COMPRESSION_THRESHOLD: 256 # Size at which data is compressed
+      NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
       SIMULATION_DISTANCE: 3 # Server view distance in chunks
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
       VIEW_DISTANCE: 6 # View distance from the player
