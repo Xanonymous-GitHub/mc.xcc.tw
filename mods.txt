@@ -58,7 +58,7 @@ https://cdn.modrinth.com/data/QwxR6Gcd/versions/rfvoZgM1/Debugify-1.21.5%2B1.0.j
 https://github.com/TCPShield/RealIP/releases/download/2.8.1/TCPShield-2.8.1.jar
 
 # https://modrinth.com/mod/owo-lib/versions?l=fabric 1.21.4
-https://cdn.modrinth.com/data/ccKDOlHs/versions/kNCPPFb2/owo-lib-0.12.20%2B1.21.4.jar
+# https://cdn.modrinth.com/data/ccKDOlHs/versions/kNCPPFb2/owo-lib-0.12.20%2B1.21.4.jar
 
 # https://modrinth.com/mod/blossomlib/versions?l=fabric&c=release 1.21.5
 https://cdn.modrinth.com/data/Xw7lTsbM/versions/Kst7g15Z/blossom-lib-2.5.13%2B1.21.5.jar
@@ -135,4 +135,4 @@ https://cdn.modrinth.com/data/DQIfKUHf/versions/VQ4VhTvm/styledplayerlist-3.7.0%
 https://cdn.modrinth.com/data/EsAfCjCV/versions/VfjnbBAT/appleskin-fabric-mc1.21.5-3.0.6.jar
 
 # https://modrinth.com/mod/leukocyte/versions?l=fabric 1.21.4
-https://cdn.modrinth.com/data/hsRVgp6Q/versions/P0zmq8gA/leukocyte-0.3.11%2B1.21.4.jar
+# https://cdn.modrinth.com/data/hsRVgp6Q/versions/P0zmq8gA/leukocyte-0.3.11%2B1.21.4.jar
