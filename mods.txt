@@ -64,7 +64,7 @@ https://cdn.modrinth.com/data/ccKDOlHs/versions/kNCPPFb2/owo-lib-0.12.20%2B1.21.
 https://cdn.modrinth.com/data/Xw7lTsbM/versions/Kst7g15Z/blossom-lib-2.5.13%2B1.21.5.jar
 
 # https://modrinth.com/mod/modernfix/versions?l=fabric 1.21.4
-https://cdn.modrinth.com/data/nmDcB62a/versions/gx7PIV8n/modernfix-fabric-5.20.1%2Bmc1.21.4.jar
+# https://cdn.modrinth.com/data/nmDcB62a/versions/gx7PIV8n/modernfix-fabric-5.20.1%2Bmc1.21.4.jar
 
 # https://modrinth.com/mod/recipecooldown/versions?l=fabric 1.21.x
 https://cdn.modrinth.com/data/7LEWYKTV/versions/oe5KEgWu/RecipeCooldown-1.0.0.jar
