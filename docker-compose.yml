@@ -42,9 +42,9 @@ services:
       ALLOW_FLIGHT: "true" # Allow users t≈o use flight on the server
       MAX_BUILD_HEIGHT: 359 # Maximum height in which building is allowed
       # JVM options for better performance and compatibility
-      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.4/wyvernity-datapack-resources-v4-5_mc-1-21-4.zip"
+      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.5/wyvernity-datapack-resources-v4-6_mc-1-21-5.zip"
       RESOURCE_PACK_ENFORCE: "true"
-      RESOURCE_PACK_SHA1: "d5dad7b76176e42c69d5e21e90708154daa37dc7"
+      RESOURCE_PACK_SHA1: "5a4936603c78beb5fc15061f7659be66b652d92a"
       JVM_OPTS: >
         -Xms10G -Xmx10G
         -XX:MaxDirectMemorySize=2G
