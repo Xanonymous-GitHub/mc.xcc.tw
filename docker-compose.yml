@@ -33,7 +33,7 @@ services:
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
-      MEMORY: "16G" # Amount of memory allocated for the server
+      MEMORY: "10G" # Amount of memory allocated for the server
       NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
       SIMULATION_DISTANCE: 3 # Server view distance in chunks
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
@@ -46,7 +46,7 @@ services:
       RESOURCE_PACK_ENFORCE: "true"
       RESOURCE_PACK_SHA1: "d5dad7b76176e42c69d5e21e90708154daa37dc7"
       JVM_OPTS: >
-        -Xms16G -Xmx16G
+        -Xms10G -Xmx10G
         -XX:MaxDirectMemorySize=2G
         -XX:MaxMetaspaceSize=1G
         -XX:+UnlockExperimentalVMOptions 
