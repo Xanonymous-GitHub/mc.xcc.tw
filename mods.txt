@@ -93,7 +93,7 @@ https://cdn.modrinth.com/data/zrzYrlm0/versions/4q2qDUKg/spawnanimations-v1.10-m
 https://cdn.modrinth.com/data/1u6JkXh5/versions/slVORvBv/worldedit-mod-7.3.12-beta-01.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.21.4
-https://cdn.modrinth.com/data/3D8J5fZB/versions/s5bE0NB3/shareenderchest-2.0.1.jar
+# https://cdn.modrinth.com/data/3D8J5fZB/versions/s5bE0NB3/shareenderchest-2.0.1.jar
 
 # https://modrinth.com/mod/luckperms/versions?l=fabric 1.21.5
 https://cdn.modrinth.com/data/Vebnzrzj/versions/EXnNc30c/LuckPerms-Fabric-5.4.158.jar
