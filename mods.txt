@@ -96,7 +96,7 @@ https://cdn.modrinth.com/data/1u6JkXh5/versions/9ACY6L4u/worldedit-mod-7.3.13.ja
 # https://cdn.modrinth.com/data/3D8J5fZB/versions/s5bE0NB3/shareenderchest-2.0.1.jar
 
 # https://modrinth.com/mod/luckperms/versions?l=fabric 1.21.5
-https://cdn.modrinth.com/data/Vebnzrzj/versions/S2f2wz1y/LuckPerms-Fabric-5.5.0.jar
+https://cdn.modrinth.com/data/Vebnzrzj/versions/EXnNc30c/LuckPerms-Fabric-5.4.158.jar
 
 # https://modrinth.com/mod/ledger/versions?l=fabric 1.21.5
 https://cdn.modrinth.com/data/LVN9ygNV/versions/IGthG5z2/ledger-1.3.10.jar
