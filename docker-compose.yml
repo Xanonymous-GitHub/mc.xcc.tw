@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:stable-java24-graalvm
+    image: itzg/minecraft-server:stable-java21-graalvm
     # Volumes map paths on the host to paths in the container
     volumes:
       # Stores Minecraft data, making it persistent and re-usable among other containers
