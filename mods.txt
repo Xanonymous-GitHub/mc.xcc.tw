@@ -34,8 +34,8 @@ https://cdn.modrinth.com/data/fALzjamp/versions/inWDi2cf/Chunky-Fabric-1.4.40.ja
 # https://modrinth.com/mod/spark/versions?l=fabric 1.21.7
 https://cdn.modrinth.com/data/l6YH9Als/versions/wPYvarTa/spark-1.10.140-fabric.jar
 
-# https://modrinth.com/mod/view-distance-fix/versions 1.21.7
-https://cdn.modrinth.com/data/nxrXbh5K/versions/UQS0dpDe/viewdistancefix-fabric-1.21.7-1.0.2.jar
+# https://modrinth.com/mod/view-distance-fix/versions 1.21.6
+https://cdn.modrinth.com/data/nxrXbh5K/versions/35oxUh8B/viewdistancefix-fabric-1.21.6-1.0.2.jar
 
 # https://modrinth.com/mod/badpackets/versions?l=fabric 1.21.7
 https://cdn.modrinth.com/data/ftdbN0KK/versions/Luy2S9Fr/badpackets-fabric-0.9.0.jar
