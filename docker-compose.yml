@@ -20,7 +20,7 @@ services:
       - "25565:25565" # Default Minecraft port
     pull_policy: "always" # Always pull the latest image
     environment:
-      VERSION: "1.21.5" # Minecraft version
+      VERSION: "1.21.7" # Minecraft version
       EULA: "TRUE" # You need to agree to the EULA to run the server
       TYPE: "FABRIC" # Server type
       MODE: "survival" # Game mode
@@ -42,9 +42,9 @@ services:
       ALLOW_FLIGHT: "true" # Allow users t≈o use flight on the server
       MAX_BUILD_HEIGHT: 359 # Maximum height in which building is allowed
       # JVM options for better performance and compatibility
-      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.5/wyvernity-datapack-resources-v4-7_mc-1-21-5.zip"
+      RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.7/wyvernity-datapack-resources-v5-0_mc-1-21-7.zip"
       RESOURCE_PACK_ENFORCE: "true"
-      RESOURCE_PACK_SHA1: "115fbd1d28a6259fb8c0141e3da9ad02a9ab0703"
+      RESOURCE_PACK_SHA1: "507f3ee189a2bb151db1be298b669105f7dfa828"
       JVM_OPTS: >
         -Xms10G -Xmx10G
         -XX:MaxDirectMemorySize=2G
