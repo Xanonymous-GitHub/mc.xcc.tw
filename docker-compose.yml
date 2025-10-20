@@ -33,7 +33,7 @@ services:
       OVERRIDE_ICON: "TRUE" # Overrides the server icon
       SERVER_NAME: "XCCTW SMP" # Server name
       OPS_FILE: "/extras/ops.json" # File containing OP players
-      MEMORY: "10G" # Amount of memory allocated for the server
+      MEMORY: "20G" # Amount of memory allocated for the server
       NETWORK_COMPRESSION_THRESHOLD: 512 # Size at which data is compressed
       SIMULATION_DISTANCE: 3 # Server view distance in chunks
       MAX_TICK_TIME: "-1" # Maximum amount of time for a tick
@@ -46,9 +46,9 @@ services:
       RESOURCE_PACK_ENFORCE: "true"
       RESOURCE_PACK_SHA1: "507f3ee189a2bb151db1be298b669105f7dfa828"
       JVM_OPTS: >
-        -Xms10G -Xmx10G
-        -XX:MaxDirectMemorySize=2G
-        -XX:MaxMetaspaceSize=1G
+        -Xms20G -Xmx20G
+        -XX:MaxDirectMemorySize=4G
+        -XX:MaxMetaspaceSize=2G
         -XX:+UnlockExperimentalVMOptions 
         -XX:+UnlockDiagnosticVMOptions 
         -Dterminal.jline=false 
@@ -61,10 +61,10 @@ services:
         -XX:+UseNUMA 
         -XX:AllocatePrefetchStyle=3 
         -XX:NmethodSweepActivity=1 
-        -XX:ReservedCodeCacheSize=1G 
-        -XX:NonNMethodCodeHeapSize=512M 
-        -XX:ProfiledCodeHeapSize=256M 
-        -XX:NonProfiledCodeHeapSize=256M 
+        -XX:ReservedCodeCacheSize=2G 
+        -XX:NonNMethodCodeHeapSize=1G 
+        -XX:ProfiledCodeHeapSize=512M 
+        -XX:NonProfiledCodeHeapSize=512M 
         -XX:+PerfDisableSharedMem 
         -XX:+UseFastUnorderedTimeStamps 
         -XX:+UseCriticalJavaThreadPriority 
@@ -78,7 +78,7 @@ services:
         -XX:+AlwaysPreTouch 
         -XX:G1NewSizePercent=20 
         -XX:G1MaxNewSizePercent=60 
-        -XX:G1HeapRegionSize=32M 
+        -XX:G1HeapRegionSize=64M 
         -XX:G1ReservePercent=20 
         -XX:G1HeapWastePercent=5 
         -XX:G1MixedGCCountTarget=4 
