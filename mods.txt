@@ -1,23 +1,23 @@
 # Fabric fundamental mods
 
 # https://modrinth.com/mod/fabric-api/versions?c=release 1.21.10
-https://cdn.modrinth.com/data/P7dR8mSH/versions/lxeiLRwe/fabric-api-0.136.0%2B1.21.10.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar
 
 # https://modrinth.com/mod/fabric-language-kotlin/versions 1.21.10
-https://cdn.modrinth.com/data/Ha28R6CL/versions/i6MmXDwA/fabric-language-kotlin-1.13.6%2Bkotlin.2.2.20.jar
+https://cdn.modrinth.com/data/Ha28R6CL/versions/LcgnDDmT/fabric-language-kotlin-1.13.7%2Bkotlin.2.2.21.jar
 
 # Optimization mods
 # The mods used in the server, aims for performance and stability.
 # ref: https://gist.github.com/Obydux/55b967f5dcc00633fe895e5a473363d5
 
 # https://modrinth.com/mod/lithium/versions?l=fabric 1.21.10
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/oGKQMdyZ/lithium-fabric-0.20.0%2Bmc1.21.10.jar
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/NsswKiwi/lithium-fabric-0.20.1%2Bmc1.21.10.jar
 
 # https://modrinth.com/mod/vmp-fabric/versions 1.21.10
-https://cdn.modrinth.com/data/wnEe9KBa/versions/ppncuwIK/vmp-fabric-mc1.21.10-0.2.0%2Bbeta.7.215-all.jar
+https://cdn.modrinth.com/data/wnEe9KBa/versions/nCucW7Sl/vmp-fabric-mc1.21.10-0.2.0%2Bbeta.7.217-all.jar
 
 # https://modrinth.com/mod/ferrite-core/versions?l=fabric 1.21.10
-https://cdn.modrinth.com/data/uXXizFIs/versions/CtMpt7Jr/ferritecore-8.0.0-fabric.jar
+https://cdn.modrinth.com/data/uXXizFIs/versions/MGoveONm/ferritecore-8.0.2-fabric.jar
 
 # https://github.com/gnembon/fabric-carpet/releases 1.21.10
 https://github.com/gnembon/fabric-carpet/releases/download/1.4.188/fabric-carpet-1.21.10-1.4.188+v251016.jar
@@ -26,7 +26,7 @@ https://github.com/gnembon/fabric-carpet/releases/download/1.4.188/fabric-carpet
 # https://github.com/gnembon/carpet-extra/releases/download/1.4.176/carpet-extra-1.21.6-1.4.176.jar
 
 # https://modrinth.com/mod/c2me-fabric/versions 1.21.10
-https://cdn.modrinth.com/data/VSNURh3q/versions/ddi30P1J/c2me-fabric-mc1.21.10-0.3.6%2Balpha.0.8.jar
+https://cdn.modrinth.com/data/VSNURh3q/versions/uNick7oj/c2me-fabric-mc1.21.10-0.3.5.1.0.jar
 
 # https://modrinth.com/plugin/chunky/versions?l=fabric 1.21.10
 https://cdn.modrinth.com/data/fALzjamp/versions/kkEljQ4R/Chunky-Fabric-1.4.51.jar
@@ -41,13 +41,13 @@ https://cdn.modrinth.com/data/nxrXbh5K/versions/btIJQtGx/viewdistancefix-fabric-
 https://cdn.modrinth.com/data/ftdbN0KK/versions/bJjBP5HF/badpackets-fabric-0.10.2.jar
 
 # https://modrinth.com/plugin/raknetify/versions?l=fabric 1.21.x
-https://cdn.modrinth.com/data/5IovSY3u/versions/f9xXpYw4/raknetify-fabric-0.1.0%2Balpha.5.193-all.jar
+https://cdn.modrinth.com/data/5IovSY3u/versions/p9miLnd3/raknetify-fabric-0.1.0%2Balpha.5.195-all.jar
 
 # https://modrinth.com/mod/servercore/versions?l=fabric 1.21.10
 https://cdn.modrinth.com/data/4WWQxlQP/versions/TTQGy6U8/servercore-fabric-1.5.14%2B1.21.9.jar
 
-# https://modrinth.com/mod/debugify/versions?l=fabric 1.21.7
-# https://cdn.modrinth.com/data/QwxR6Gcd/versions/ZzhkIsJg/Debugify-1.21.7%2B1.0.jar
+# https://modrinth.com/mod/debugify/versions?l=fabric 1.21.10
+https://cdn.modrinth.com/data/QwxR6Gcd/versions/i4mzYGzu/debugify-1.21.10%2B1.1.jar
 
 # https://modrinth.com/mod/noisium/versions?l=fabric 1.21.6
 # https://cdn.modrinth.com/data/KuNKN7d2/versions/V9mMIy0f/noisium-fabric-2.7.0%2Bmc1.21.6.jar
@@ -96,13 +96,13 @@ https://cdn.modrinth.com/data/1u6JkXh5/versions/HBMsZ6cB/worldedit-mod-7.3.17.ja
 https://cdn.modrinth.com/data/Vebnzrzj/versions/rGOrpVtr/LuckPerms-Fabric-5.5.17.jar
 
 # https://modrinth.com/mod/ledger/versions?l=fabric 1.21.10
-https://cdn.modrinth.com/data/LVN9ygNV/versions/O4Rna8OX/ledger-1.3.16.jar
+https://cdn.modrinth.com/data/LVN9ygNV/versions/UDnaslOG/ledger-1.3.17.jar
 
 # https://modrinth.com/mod/blossomtpa/versions?l=fabric&c=release 1.21.10
 https://cdn.modrinth.com/data/Y25EUH1s/versions/u3w7YkDw/blossom-tpa-2.2.11%2B1.21.9.jar
 
 # https://modrinth.com/mod/journeymap/versions?l=fabric 1.21.10
-https://cdn.modrinth.com/data/lfHFW1mp/versions/TYlVzBhI/journeymap-fabric-1.21.10-6.0.0-beta.52.jar
+https://cdn.modrinth.com/data/lfHFW1mp/versions/66NSZBxq/journeymap-fabric-1.21.10-6.0.0-beta.54.jar
 
 # https://modrinth.com/mod/easy-elytra-takeoff/versions?l=fabric 1.21.10
 https://cdn.modrinth.com/data/3hqwGCUB/versions/FHv71PSV/easyelytratakeoff-1.21.10-4.5.jar
