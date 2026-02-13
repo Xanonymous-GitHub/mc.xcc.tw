@@ -78,7 +78,7 @@ https://cdn.modrinth.com/data/5y2R1ofr/versions/4XdSoSFP/mine-treasure-1.6.2.jar
 https://cdn.modrinth.com/data/zrzYrlm0/versions/dXw74N2Q/spawnanimations-v1.11.3-mc1.17-1.21.11-mod.jar
 
 # https://modrinth.com/plugin/worldedit/versions?l=fabric 1.21.11
-https://cdn.modrinth.com/data/1u6JkXh5/versions/ZmRjhuVs/worldedit-mod-7.3.18-beta-01.jar
+https://cdn.modrinth.com/data/1u6JkXh5/versions/o645q0Oo/worldedit-mod-7.4.0.jar
 
 # https://modrinth.com/mod/share-ender-chest/versions 1.21.11
 https://cdn.modrinth.com/data/3D8J5fZB/versions/wEAtw0ZZ/shareenderchest-2.0.3.jar
