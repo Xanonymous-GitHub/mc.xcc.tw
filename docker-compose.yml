@@ -44,7 +44,7 @@ services:
       # JVM options for better performance and compatibility
       RESOURCE_PACK: "https://github.com/Xanonymous-GitHub/mc.xcc.tw/releases/download/1.21.11/wyvernity-datapack-resources-v5-2_mc-1-21-11.zip"
       RESOURCE_PACK_ENFORCE: "true"
-      RESOURCE_PACK_SHA1: "80c43e9c3c369865c4ede9417f69861e077a55e8"
+      RESOURCE_PACK_SHA1: "4a628c93832aebc7a297fe907ce71bfe62810fd0"
       JVM_OPTS: >
         -Xms20G -Xmx20G
         -XX:MaxDirectMemorySize=4G
