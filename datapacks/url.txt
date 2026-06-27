@@ -10,7 +10,7 @@
 # FTMC
 # https://www.planetminecraft.com/data-pack/1-13-instant-high-speed-railway-builder-tool-datapack/
 
-# Heaven Dimension (wait 1.21.x release)
+# Heaven Dimension
 # https://modrinth.com/datapack/heaven-dimension-fabric/versions?l=datapack&l=fabric
 
 # StarDust series
