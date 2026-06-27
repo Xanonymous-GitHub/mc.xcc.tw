@@ -13,16 +13,6 @@
 # Heaven Dimension
 # https://modrinth.com/datapack/heaven-dimension-fabric/versions?l=datapack&l=fabric
 
-# StarDust series
-# https://www.stardustlabs.net/version-library
-# Incendium
-# Structory
-# Terralith
-# Nullspace
-# AMP.NETHER
-# CONTINENTS
-# STRUCTORY:TOWERS
-
 # PK waystone
 # https://modrinth.com/datapack/waystones-data-pack/versions
 

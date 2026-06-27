@@ -124,3 +124,24 @@ https://cdn.modrinth.com/data/EsAfCjCV/versions/zLlqqiTA/appleskin-fabric-mc26.1
 
 # https://modrinth.com/mod/leukocyte/versions?l=fabric 26.1.2
 https://cdn.modrinth.com/data/hsRVgp6Q/versions/426DVJLQ/leukocyte-0.3.15%2B26.1.2.jar
+
+# https://modrinth.com/mod/incendium/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/ZVzW5oNS/versions/dmD183NM/Incendium_26.1_v5.4.12.jar
+
+# https://modrinth.com/mod/structory/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/aKCwCJlY/versions/Nvh2sSPX/Structory_26.1_v1.3.16.jar
+
+# https://modrinth.com/mod/nullscape/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/LPjGiSO4/versions/E4kh5rGD/Nullscape_26.1_v1.2.19.jar
+
+# https://modrinth.com/datapack/amplified-nether/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/wXiGiyGX/versions/rp2A0tDf/Amplified_Nether_26.1_v1.2.14.jar
+
+# https://modrinth.com/datapack/terralith/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/8oi3bsk5/versions/FCzSjHeG/Terralith_26.1_v2.6.2_Fabric.jar
+
+# https://modrinth.com/datapack/continents/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/bQ5TJA1E/versions/WxCjDRzw/Continents_26.1_v1.1.13.jar
+
+# https://modrinth.com/datapack/structory-towers/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/j3FONRYr/versions/ioKwCTuD/Structory_Towers_26.1_v1.0.16.jar
