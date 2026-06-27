@@ -66,6 +66,9 @@ https://cdn.modrinth.com/data/1eAoo2KR/versions/A6V2zTVY/yet_another_config_lib_
 # https://modrinth.com/mod/resourceful-lib/versions?l=fabric 26.1.2
 https://cdn.modrinth.com/data/G1hIVOrD/versions/sOEhLVuw/ResourcefulLib-4.0.1.jar
 
+# https://modrinth.com/mod/lithostitched/versions?l=fabric 26.1.x
+https://cdn.modrinth.com/data/XaDC71GB/versions/7gxI2iZP/lithostitched-1.7.12-fabric-26.1.jar
+
 # Features mods
 
 # https://modrinth.com/datapack/vanilla-refresh/versions?l=fabric 26.1.2
