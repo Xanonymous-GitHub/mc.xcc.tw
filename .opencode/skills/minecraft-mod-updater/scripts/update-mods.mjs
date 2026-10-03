@@ -38,11 +38,11 @@ function isStableGameVersion(version) {
 }
 
 function compareGameVersions(left, right) {
-  const a = left.match(STABLE_GAME_VERSION_RE).slice(0, 4).slice(1).map((part) => part == null ? 0 : Number(part));
-  const b = right.match(STABLE_GAME_VERSION_RE).slice(0, 4).slice(1).map((part) => part == null ? 0 : Number(part));
+  const a = left.split(".").map(Number);
+  const b = right.split(".").map(Number);
 
   for (let i = 0; i < 3; i += 1) {
-    if (a[i] !== b[i]) return a[i] - b[i];
+    if ((a[i] || 0) !== (b[i] || 0)) return (a[i] || 0) - (b[i] || 0);
   }
 
   return 0;
